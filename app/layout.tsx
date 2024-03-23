@@ -6,7 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Unavar",
+
   description: "Ensuring Quality from Farm to Fork",
+
 };
 
 export default function RootLayout({
