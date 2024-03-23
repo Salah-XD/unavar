@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className='bg-white p-7 shadow-lg flex items-center justify-between'>
       <div className="left flex items-center gap-5">
         <Image
-          src= "/img/image 3.png"
+          src= "/images/logo.png"
           width={50}
           height={50}
         />
