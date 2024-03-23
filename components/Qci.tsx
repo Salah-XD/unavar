@@ -16,7 +16,12 @@ const Qci = () => {
           global standards.
         </p>
         <div className="sub flex items-center gap-4">
-          <Image alt="img" src="/images/layer-1.svg" width={100} height={100} />
+          <Image
+            alt="img2"
+            src="/images/layer-1.svg"
+            width={100}
+            height={100}
+          />
           <h3 className="text-2xl font-[500]">
             QCI Credited <br /> Oraganisation
           </h3>
