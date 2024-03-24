@@ -1,6 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
+
+const img1 = "/images/Sapphire.png";
+const img2 = "/images/Anjappar.jpg";
+const img3 = "/images/HardCastle.png";
+const img4 = "/images/Jubilant.png";
+const img5 = "/images/Kitchen.jpg";
+const img6 = "/images/Kitchen.jpg";
+const img7 = "/images/Kitchen.jpg";
+
 const Clients = () => {
   return (
     <div className="h-[100vh] bg-white py-10">
@@ -18,7 +27,7 @@ const Clients = () => {
             <div className="bg-white  w-[15vw] h-[30vh] flex justify-center align-middle rounded-2xl shadow-lg">
               <Image
                 alt="img"
-                src="/images/Sapphire.png"
+                src={img1}
                 width={200}
                 height={50}
                 className="object-cover rounded-2xl"
@@ -27,7 +36,7 @@ const Clients = () => {
             <div className="bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle">
               <Image
                 alt="img"
-                src="/images/Anjappar.jpg"
+                src={img2}
                 width={200}
                 height={50}
                 className="object-cover rounded-2xl"
@@ -36,7 +45,7 @@ const Clients = () => {
             <div className="bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle">
               <Image
                 alt="img"
-                src="/images/HardCastle.png"
+                src={img3}
                 width={200}
                 height={50}
                 className="object-cover rounded-2xl"
@@ -45,7 +54,7 @@ const Clients = () => {
             <div className="bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle">
               <Image
                 alt="img"
-                src="/images/Jubilant.png"
+                src={img4}
                 width={200}
                 height={50}
                 className="object-cover rounded-2xl"
@@ -56,7 +65,7 @@ const Clients = () => {
             <div className="bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle">
               <Image
                 alt="img"
-                src="/images/Kitchen.jpg"
+                src={img5}
                 width={200}
                 height={100}
                 className="object-cover rounded-2xl"
@@ -65,7 +74,7 @@ const Clients = () => {
             <div className="bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle">
               <Image
                 alt="img"
-                src="/images/Kitchen.jpg"
+                src={img6}
                 width={200}
                 height={100}
                 className="object-cover rounded-2xl"
@@ -74,7 +83,7 @@ const Clients = () => {
             <div className="bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle">
               <Image
                 alt="img"
-                src="/images/Kitchen.jpg"
+                src={img7}
                 width={200}
                 height={100}
                 className="object-cover rounded-2xl"
