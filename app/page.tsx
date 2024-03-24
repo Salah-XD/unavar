@@ -14,9 +14,7 @@ export default function Home() {
       <Service/>
       <Testimonial/>
       <Clients />
-      <div className="py-10">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
