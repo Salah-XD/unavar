@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 const img1 = "/images/Sapphire.png";
 const img2 = "/images/Anjappar.jpg";
