@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <div className="bg-white p-7 shadow-lg flex items-center justify-between">
       <div className="left flex items-center gap-5">
-r
         <Image alt="logo" src="/images/logo.png" width={50} height={50} />
         <p className="font-bold">
           UNAVAR FOOD INSPECTION & <br /> CERTIFICATION PRIVATE LIMITED
