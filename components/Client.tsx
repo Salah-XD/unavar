@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Image from "next/image";
+
 
 const img1 = "/images/Sapphire.png";
 const img2 = "/images/Anjappar.jpg";
@@ -19,27 +21,27 @@ const Clients = () => {
                 <div className='flex flex-col gap-3'>
                 <div className='flex py-2 justify-center gap-10'>
                     <div className='bg-white  w-[15vw] h-[30vh] flex justify-center align-middle rounded-2xl shadow-lg'>
-                        <img alt='img1' src={img1} className='object-cover rounded-2xl'></img>
+                        <Image alt="img1" src={img1} className='object-cover rounded-2xl' width={200} height={50}/>
                     </div>
                     <div className='bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle'>
-                        <img src={img2} alt='img2' className='object-cover rounded-2xl'></img>
+                        <Image alt="img2" src={img2} className='object-cover rounded-2xl' width={200} height={50}/>
                     </div>
                     <div className='bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle'>
-                        <img src={img3} alt='img3' className='object-cover rounded-2xl'></img>
+                        <Image alt="img3" src={img3} className='object-cover rounded-2xl' width={200} height={50}/>
                     </div>
                     <div className='bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle'>
-                        <img src={img4} alt='img4' className='object-cover rounded-2xl'></img>
+                        <Image alt="img4" src={img4} className='object-cover rounded-2xl' width={200} height={50}/>
                     </div>
                 </div>
                 <div className='flex py-3 justify-center gap-10'>
                     <div className='bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle'>
-                        <img src={img5} alt='img5' className='object-cover rounded-2xl'></img>
+                        <Image alt="img5" src={img5} className='object-cover rounded-2xl' width={200} height={50}/>
                     </div>
                     <div className='bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle'>
-                        <img src={img6} alt='img6' className='object-cover rounded-2xl'></img>
+                        <Image alt="img6" src={img6} className='object-cover rounded-2xl' width={200} height={50}/>
                     </div>
                     <div className='bg-white w-[15vw] h-[30vh] rounded-2xl shadow-lg flex justify-center align-middle'>
-                        <img src={img7} alt='img7' className='object-cover rounded-2xl'></img>
+                        <Image alt="img7" src={img7} className='object-cover rounded-2xl' width={200} height={50}/>
                     </div>
                 </div>
                 </div>
