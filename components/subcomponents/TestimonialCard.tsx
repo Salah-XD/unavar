@@ -9,9 +9,9 @@ const TestimonialCard = () => {
         <Image
           src="/images/merlin.png"
           alt="img"
-          className="rounded-full shadow-lg"
-          width={200}
-          height={200}
+          className="rounded-full"
+          width={300}
+          height={300}
         />
         <span className="absolute top-9 left-9 flex items-center justify-center w-10 h-10 rounded-full bg-[#13a6b8] text-white">
           <FaQuoteRight />

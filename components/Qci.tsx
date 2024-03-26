@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Qci = () => {
   return (
-    <div className="qci my-10 p-5 px-10 flex flex-wrap justify-around">
-      <div className="left w-[40%]">
+    <div className="qci my-10 p-5 px-10 flex flex-wrap gap-10 justify-around">
+      <div className="left w-screen md:w-[40%]">
         <h2 className="text-4xl font-semibold leading-[1.5] text-[#0f7a87]">
           Ensuring the highest <br /> standards of food safety and quality.
         </h2>
