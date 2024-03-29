@@ -53,9 +53,9 @@ const Footer = () => {
                 commitment to excellence,UNAVAR offers comprehensive services
                 spanning inspection, certification and consultation.
               </p>
-              <button className=" bg-transparent border border-lime-500 text-lime-500 font-light py-2 px-6 rounded-lg hover:bg-lime-500 hover:text-white">
+              {/* <button className=" bg-transparent border border-lime-500 text-lime-500 font-light py-2 px-6 rounded-lg hover:bg-lime-500 hover:text-white">
                 Know more
-              </button>
+              </button> */}
             </div>
           </div>
 
