@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
@@ -9,10 +8,10 @@ const page = (props: Props) => {
   return (
     <div>
       <Navbar />
-      <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(&LSQUO;/images/web.png&LSQUO;)]">
+      <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/web.png)]">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <a className="text-4xl font-medium text-white">Our Policies</a>
-          <p className="text-white text-xl m-3">
+          <a className="text-4xl font-bold text-white">Our Policies</a>
+          <p className="text-white text-l md:text-xl m-0 md:m-3 my-5 w-screen px-3">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
             dolorem nobis fugiat mollitia, repellat eum necessitatibus
           </p>
@@ -21,7 +20,8 @@ const page = (props: Props) => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col justify-center align-middle p-20">
+      {/* ------- */}
+      <div className="flex flex-col justify-center align-middle p-2 md:p-20">
         <div className="flex flex-col p-10">
           <p className="text-black font-bold text-xl">1.Quality Policy</p>
           <p className="text-black font-sm text-wrap text-md p-3">

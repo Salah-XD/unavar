@@ -16,7 +16,7 @@ const ServiceCard = ({ head, desc }: ServiceCardProps) => {
       <Image
         className="relative my-5 bg-[#0f7a87] rounded-xl pt-1"
         src="/images/mynaui-leaves.svg"
-        width={70}
+        width={100}
         height={70}
         alt="icon"
       />
@@ -29,7 +29,7 @@ const ServiceCard = ({ head, desc }: ServiceCardProps) => {
         </PopoverTrigger>
         <PopoverContent align="start" sideOffset={10} className="p-5 bg-white">
           <p className="text-lg text-[#0f7a87]">{desc}</p>
-          <Image src="/images/pic.png" width={400} height={400} alt="img" />
+          <Image src="/images/pic.png" width={1000} height={1000} alt="img" />
         </PopoverContent>
       </Popover>
     </div>

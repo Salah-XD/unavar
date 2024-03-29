@@ -25,10 +25,10 @@ const Navbar = () => {
 
   return (
     <div className="bg-white p-7 shadow-lg flex items-center justify-between">
-      <div className="left flex items-center gap-5">
+      <a href="/" className="left flex items-center gap-5">
         <Image alt="logo" src="/images/logo.png" width={50} height={50} />
         <p className="font-bold">UNAVAR</p>
-      </div>
+      </a>
       <div className="right relative">
         <div
           ref={menuRef}

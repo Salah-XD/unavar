@@ -12,7 +12,7 @@ const img7 = "/images/Kitchen.jpg";
 
 const Clients = () => {
   return (
-    <div className=" bg-slate-50 py-20 my-10 mt-20 px-10">
+    <div className=" bg-[#d3faff] py-20 my-10 mt-20 px-10">
       <div className="flex flex-col gap-3 justify-center text-center py-5">
         <h1 className="text-center text-4xl font-semibold">
           Our Major Clients

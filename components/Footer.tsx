@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="flex flex-col gap-5 w-[400px]">
             <div className="left flex items-center gap-5">
               <Image alt="logo" src="/images/logo.png" width={50} height={50} />
-              <p className="font-bold text-black">
+              <p className="font-bold text-black text-left">
                 UNAVAR FOOD INSPECTION & <br /> CERTIFICATION PRIVATE LIMITED
               </p>
             </div>
