@@ -9,7 +9,7 @@ const page = (props: Props) => {
   return (
     <div>
       <Navbar />
-      <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url('/images/web.png')]">
+      <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(&LSQUO;/images/web.png&LSQUO;)]">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <a className="text-4xl font-medium text-white">Our Policies</a>
           <p className="text-white text-xl m-3">
@@ -61,11 +61,11 @@ const page = (props: Props) => {
             by financial or commercial pressures and actively address situations
             that may affect impartiality. Ongoing identification of threats to
             impartiality is conducted, including self-interest, self-review,
-            familiarity, intimidation, and financial threats. UNAVAR's
+            familiarity, intimidation, and financial threats. UNAVAR&LSQUO;s
             management system is equipped with necessary safeguards to enforce
-            these policies. The company's certification services do not
-            interfere with client's trade or audit quality, irrespective of
-            business volume. Additionally, UNAVAR refrains from engaging in
+            these policies. The company&LSQUO;s certification services do not
+            interfere with client&LSQUO;s trade or audit quality, irrespective
+            of business volume. Additionally, UNAVAR refrains from engaging in
             activities such as product certification, supply, or catering sector
             training to mitigate risks to impartiality. A certification and
             inspection scheme committee ensures balanced representation of
@@ -125,9 +125,9 @@ const page = (props: Props) => {
             compliance with relevant standards and regulations. These recognized
             bodies typically have accreditation from regulatory agencies or
             industry associations. The purpose of TPA is to provide an impartial
-            assessment of a food business's compliance with food safety and
-            quality standards, offering assurance to consumers and regulatory
-            authorities alike
+            assessment of a food business&LSQUO;s compliance with food safety
+            and quality standards, offering assurance to consumers and
+            regulatory authorities alike
           </p>
         </div>
       </div>
