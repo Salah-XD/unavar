@@ -1,10 +1,23 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef();
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -14,16 +27,19 @@ const Navbar = () => {
     <div className="bg-white p-7 shadow-lg flex items-center justify-between">
       <div className="left flex items-center gap-5">
         <Image alt="logo" src="/images/logo.png" width={50} height={50} />
-        <p className="font-bold">
-          UNAVAR
-          {/* UNAVAR FOOD INSPECTION & <br /> CERTIFICATION PRIVATE LIMITED */}
-        </p>
+        <p className="font-bold">UNAVAR</p>
       </div>
-      <div className="right">
+      <div className="right relative">
         <div
-          className={`menu flex gap-7 list-none font-[500] ${
-            isOpen ? "block" : "hidden"
-          } sm:flex flex-col absolute top-20 right-0 bg-white p-5 shadow-lg w-60 rounded-lg`}
+          ref={menuRef}
+          className={`menu absolute top-full left-0 bg-white w-full shadow-md sm:static sm:flex sm:gap-7 list-none font-[500] ${
+            isOpen ? "block transition-all duration-300" : "hidden"
+          }`}
+          style={{
+            maxHeight: isOpen ? "calc(100vh - 64px)" : "0",
+            overflow: "hidden",
+            transition: "max-height 0.3s ease",
+          }}
         >
           <li>
             <a href="">Home</a>
@@ -38,7 +54,7 @@ const Navbar = () => {
             <a href="">Industry</a>
           </li>
           <li>
-            <a href="">clients</a>
+            <a href="">Clients</a>
           </li>
           <li>
             <a href="">Blogs</a>

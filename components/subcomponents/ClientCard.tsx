@@ -8,7 +8,7 @@ interface ClientCardProps {
 const ClientCard = ({ img }: ClientCardProps) => {
   return (
     <div>
-      <div className="bg-white h-[25vh] rounded-2xl shadow-lg flex flex-wrap justify-center align-middle">
+      <div className="bg-white h-[25 vh] rounded-2xl shadow-lg flex flex-wrap justify-center align-middle">
         <Image
           alt="img"
           src={img}
