@@ -1,4 +1,9 @@
 import Image from "next/image";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 interface ServiceCardProps {
   head: string;
@@ -16,15 +21,17 @@ const ServiceCard = ({ head, desc }: ServiceCardProps) => {
         alt="icon"
       />
       <p className="text-2xl font-semibold">{head}</p>
-      <div className="absolute flex flex-col gap-3 justify-center items-center text-center  bg-[#13a6b8] w-[350px] h-[246px] rounded-3xl left-[0] -bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="text-white text-xl font-medium w-[200px]">{desc}</p>
-        <a
-          href=""
-          className="text-[#13a6b8] bg-white font-semibold text-xl p-2 px-4 rounded-lg"
-        >
-          Know More
-        </a>
-      </div>
+      <Popover>
+        <PopoverTrigger as="button" className="group-hover:underline">
+          <p className="text-lg text-[#0f7a87] group-hover:text-[#0f7a87]">
+            Know More
+          </p>
+        </PopoverTrigger>
+        <PopoverContent align="start" sideOffset={10} className="p-5 bg-white">
+          <p className="text-lg text-[#0f7a87]">{desc}</p>
+          <Image src="/images/pic.png" width={400} height={400} alt="img" />
+        </PopoverContent>
+      </Popover>
     </div>
   );
 };
