@@ -5,6 +5,7 @@ import Service from "@/components/Service";
 import Clients from "@/components/Client";
 import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonial";
+import Banner from "@/components/subcomponents/banner";
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
       <Navbar/>
       <Qci/>
       <Service/>
-      <Testimonial/>
+      <Testimonial/>ssss
       <Clients />
+      <Banner />
       <Footer />
     </div>
   );
