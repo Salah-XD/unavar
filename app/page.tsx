@@ -5,17 +5,18 @@ import Service from "@/components/Service";
 import Clients from "@/components/Client";
 import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonial";
+import Banner from "@/components/subcomponents/banner";
 import { Slider } from "@/components/Slider";
 
 export default function Home() {
   return (
     <div className="">
       <Navbar />
-      <Slider />
       <Qci />
       <Service />
       <Testimonial />
       <Clients />
+      <Banner />
       <Footer />
     </div>
   );
