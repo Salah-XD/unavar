@@ -16,6 +16,7 @@ const Service = () => {
           desc="We ensure that your food products meet safety and qquality"
           image="/images/tpa.png"
           btn="Enquire Now"
+          pimg="/images/certificates/hygiene-cer.png"
         />
       </div>
       <h1 className="text-center text-4xl font-semibold">
@@ -27,36 +28,42 @@ const Service = () => {
           desc="We ensure that your food products meet safety and qquality"
           image="/images/hygiene.png"
           btn="Sample Cerificate"
+          pimg="/images/certificates/hygiene-cer.png"
         />
         <ServiceCard
           head="Eat Right Station"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright.png"
           btn="Sample Cerificate"
+          pimg="/images/certificates/eatright-station-cer.png"
         />
         <ServiceCard
           head="Eat Right Fruit and Vegetable Market"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-veg.png"
           btn="Sample Cerificate"
+          pimg="/images/certificates/eatright-vegmarket.png"
         />
         <ServiceCard
           head="Eat Right Hub"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-hub.png"
           btn="Sample Cerificate"
+          pimg="/images/certificates/eatright-hub-cer.png"
         />
         <ServiceCard
           head="Eat Right Campus"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-campus.png"
           btn="Sample Cerificate"
+          pimg="/images/certificates/eatright-campus-cer.png"
         />
         <ServiceCard
           head="Eat Right Worship Place"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-worship.png"
           btn="Sample Cerificate"
+          pimg="/images/certificates/eatright-worship-cer.png"
         />
       </div>
     </div>
