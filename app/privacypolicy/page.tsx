@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import Banner from "@/components/subcomponents/banner";
 
 type Props = {};
 
@@ -133,6 +134,7 @@ const page = (props: Props) => {
       </div>
       <footer>
         <div>
+          <Banner />
           <Footer />
         </div>
       </footer>

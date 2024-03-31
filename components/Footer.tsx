@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Banner from "./subcomponents/banner";
 
 const Footer = () => {
   return (
