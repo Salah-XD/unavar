@@ -12,7 +12,7 @@ const Service = () => {
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
         <ServiceCard
-          head="Hygiene Rating"
+          head="Third Party Auditing"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/tpa.png"
           btn="Enquire Now"
@@ -29,31 +29,31 @@ const Service = () => {
           btn="Sample Cerificate"
         />
         <ServiceCard
-          head="Hygiene Rating"
+          head="Eat Right Station"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright.png"
           btn="Sample Cerificate"
         />
         <ServiceCard
-          head="Hygiene Rating"
+          head="Eat Right Fruit and Vegetable Market"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-veg.png"
           btn="Sample Cerificate"
         />
         <ServiceCard
-          head="Hygiene Rating"
+          head="Eat Right Hub"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-hub.png"
           btn="Sample Cerificate"
         />
         <ServiceCard
-          head="Hygiene Rating"
+          head="Eat Right Campus"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-campus.png"
           btn="Sample Cerificate"
         />
         <ServiceCard
-          head="Hygiene Rating"
+          head="Eat Right Worship Place"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-worship.png"
           btn="Sample Cerificate"

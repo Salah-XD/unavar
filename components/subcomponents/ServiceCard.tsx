@@ -10,11 +10,12 @@ interface ServiceCardProps {
   desc: string;
   image: string;
   btn: string;
+  pimg: string;
 }
 
-const ServiceCard = ({ head, desc, image, btn }: ServiceCardProps) => {
+const ServiceCard = ({ head, desc, image, btn, pimg }: ServiceCardProps) => {
   return (
-    <div className="group relative w-[350px] h-[370px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
+    <div className="group relative w-[350px] h-[410px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
       <Image
         className="relative my-5 bg-[#0f7a87] rounded-xl pt-1"
         src={image}
@@ -31,7 +32,7 @@ const ServiceCard = ({ head, desc, image, btn }: ServiceCardProps) => {
         </PopoverTrigger>
         <PopoverContent align="start" sideOffset={10} className="p-5 bg-white">
           <p className="text-lg text-[#0f7a87]">{desc}</p>
-          <Image src="/images/pic.png" width={1000} height={1000} alt="img" />
+          <Image src={pimg} width={1000} height={1000} alt="img" />
         </PopoverContent>
       </Popover>
     </div>

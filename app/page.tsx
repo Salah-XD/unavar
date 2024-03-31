@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div className="">
       <Navbar />
+      <Slider />
       <Qci />
       <Service />
       <Testimonial />

@@ -17,7 +17,7 @@ const responsive = {
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -39,7 +39,7 @@ const Testimonial = (props: Props) => {
       <center>
         <Carousel
           responsive={responsive}
-          className="py-20 w-screen"
+          className="py-20 w-full"
           showDots={true}
           ssr={true}
         >
