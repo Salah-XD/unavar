@@ -36,20 +36,20 @@ export const Slider = (props: Props) => {
     setCurrentIndex(newIndex);
   };
 
-  const goToSlide = (slideIndex) => {
+  const goToSlide = (slideIndex: number) => {
     setCurrentIndex(slideIndex);
   };
   const autoSlideInterval = 5000; // Auto-slide interval in milliseconds
 
-  useEffect(() => {
-    const autoSlideTimer = setInterval(() => {
-      nextSlide(); // Call nextSlide to move to the next slide
-    }, autoSlideInterval);
+  // useEffect(() => {
+  //   const autoSlideTimer = setInterval(() => {
+  //     nextSlide(); // Call nextSlide to move to the next slide
+  //   }, autoSlideInterval);
 
-    return () => {
-      clearInterval(autoSlideTimer); // Clear the interval when component unmounts
-    };
-  }, [currentIndex]); // Run the effect whenever currentIndex changes
+  //   return () => {
+  //     clearInterval(autoSlideTimer); // Clear the interval when component unmounts
+  //   };
+  // }, [currentIndex]); // Run the effect whenever currentIndex changes
 
   return (
     <>
