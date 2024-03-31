@@ -25,7 +25,7 @@ const ServiceCard = ({ head, desc, image, btn, pimg }: ServiceCardProps) => {
       />
       <p className="text-2xl font-semibold">{head}</p>
       <Popover>
-        <PopoverTrigger as="button">
+        <PopoverTrigger>
           <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
             {btn}
           </p>
