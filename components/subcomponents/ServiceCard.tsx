@@ -8,23 +8,25 @@ import {
 interface ServiceCardProps {
   head: string;
   desc: string;
+  image: string;
+  btn: string;
 }
 
-const ServiceCard = ({ head, desc }: ServiceCardProps) => {
+const ServiceCard = ({ head, desc, image, btn }: ServiceCardProps) => {
   return (
-    <div className="group relative w-[350px] h-[246px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
+    <div className="group relative w-[350px] h-[370px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
       <Image
         className="relative my-5 bg-[#0f7a87] rounded-xl pt-1"
-        src="/images/mynaui-leaves.svg"
-        width={100}
-        height={70}
+        src={image}
+        width={400}
+        height={400}
         alt="icon"
       />
       <p className="text-2xl font-semibold">{head}</p>
       <Popover>
-        <PopoverTrigger as="button" className="group-hover:underline">
-          <p className="text-lg text-[#0f7a87] group-hover:text-[#0f7a87]">
-            Know More
+        <PopoverTrigger as="button">
+          <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
+            {btn}
           </p>
         </PopoverTrigger>
         <PopoverContent align="start" sideOffset={10} className="p-5 bg-white">

@@ -1,40 +1,69 @@
+"use client";
+
 import React from "react";
 import TestimonialCard from "./subcomponents/TestimonialCard";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 type Props = {};
 
 const Testimonial = (props: Props) => {
   return (
-    <div className="my-10 px-10">
+    <div className="m-0 md:m-10">
       <div className="bg-primary-500 text-center py-6">
         <h1 className="text-center text-4xl font-semibold">Testimonials </h1>
-        <p className="text-white text-lg">What our clients say about us</p>
+        <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">
+          What our clients say about us
+        </p>
       </div>
-      <div className="flex justify-center gap-9 flex-wrap">
-        <Carousel className="w-80vw ">
-          <CarouselContent>
-            <CarouselItem className=" basis-1/4 pl-[10rem]">
-              <TestimonialCard />
-            </CarouselItem>
-            <CarouselItem className=" basis-1/4 pl-[10rem]">
-              <TestimonialCard />
-            </CarouselItem>
-            <CarouselItem className=" basis-1/4 pl-[10rem]">
-              <TestimonialCard />
-            </CarouselItem>
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+      <center>
+        <Carousel
+          responsive={responsive}
+          className="py-20 w-screen"
+          showDots={true}
+          ssr={true}
+        >
+          <div>
+            <TestimonialCard />
+          </div>
+          <div>
+            <TestimonialCard />
+          </div>
+          <div>
+            <TestimonialCard />
+          </div>
+          <div>
+            <TestimonialCard />
+          </div>
+          <div>
+            <TestimonialCard />
+          </div>
+          <div>
+            <TestimonialCard />
+          </div>
         </Carousel>
-      </div>
+      </center>
+      ;
     </div>
   );
 };
