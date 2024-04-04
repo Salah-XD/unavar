@@ -63,7 +63,6 @@ const Testimonial = (props: Props) => {
           </div>
         </Carousel>
       </center>
-      ;
     </div>
   );
 };
