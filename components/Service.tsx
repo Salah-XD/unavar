@@ -1,4 +1,6 @@
 import ServiceCard from "./subcomponents/ServiceCard";
+import AuditCard from "./subcomponents/AuditCard";
+
 const Service = () => {
   return (
     <div className="my-10 px-10">
@@ -11,12 +13,10 @@ const Service = () => {
         Services we Offer{" "}
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
-        <ServiceCard
+        <AuditCard
           head="Third Party Auditing"
-          desc="We ensure that your food products meet safety and qquality"
           image="/images/tpa.png"
-          btn="Enquire Now"
-          pimg="/images/certificates/hygiene-cer.png"
+          btn="view more"
         />
       </div>
       <h1 className="text-center text-4xl font-semibold">
@@ -29,6 +29,7 @@ const Service = () => {
           image="/images/hygiene.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/hygiene-cer.png"
+          path="/services"
         />
         <ServiceCard
           head="Eat Right Station"
@@ -36,6 +37,7 @@ const Service = () => {
           image="/images/eatright.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-station-cer.png"
+          path="/services"
         />
         <ServiceCard
           head="Eat Right Fruit and Vegetable Market"
@@ -43,6 +45,7 @@ const Service = () => {
           image="/images/eatright-veg.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-vegmarket.png"
+          path="/services"
         />
         <ServiceCard
           head="Eat Right Hub"
@@ -50,6 +53,7 @@ const Service = () => {
           image="/images/eatright-hub.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-hub-cer.png"
+          path="/services"
         />
         <ServiceCard
           head="Eat Right Campus"
@@ -57,6 +61,7 @@ const Service = () => {
           image="/images/eatright-campus.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-campus-cer.png"
+          path="/services"
         />
         <ServiceCard
           head="Eat Right Worship Place"
@@ -64,6 +69,7 @@ const Service = () => {
           image="/images/eatright-worship.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-worship-cer.png"
+          path="/services"
         />
       </div>
     </div>
