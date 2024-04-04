@@ -1,14 +1,38 @@
 "use client";
-
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+interface NavbarProps {}
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const Navbar: React.FC<NavbarProps> = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [shouldAnimate, setShouldAnimate] = useState<boolean>(false);
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    setShouldAnimate(true);
   };
+
+  useEffect(() => {
+    const menuElement = menuRef.current;
+
+    const handleAnimationEnd = () => {
+      setShouldAnimate(false);
+      if (menuElement) {
+        menuElement.classList.remove("animate-again");
+      }
+    };
+
+    if (menuElement) {
+      menuElement.addEventListener("animationend", handleAnimationEnd);
+    }
+
+    return () => {
+      if (menuElement) {
+        menuElement.removeEventListener("animationend", handleAnimationEnd);
+      }
+    };
+  }, []);
 
   return (
     <div className="bg-white p-7 shadow-lg flex items-center justify-between">
@@ -21,9 +45,12 @@ const Navbar = () => {
       </div>
       <div className="right">
         <div
-          className={`menu flex gap-7 list-none font-[500] ${
-            isOpen ? "block" : "hidden "
-          } sm:flex`}
+          ref={menuRef}
+          className={`menu flex flex-col absolute gap-7 list-none font-[500] top-10 right-7  ${
+            isOpen ? "block" : "hidden"
+          } ${
+            shouldAnimate ? "animate-slide-down animate-again" : ""
+          } sm:flex-row sm:gap-5 sm:static`}
         >
           <li>
             <a href="">Home</a>
