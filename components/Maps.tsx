@@ -6,7 +6,7 @@ type Props = {}
 const Maps = (props: Props) => {
   return (
     <div>
-      <div className="flex absolute flex-wrap justify-center gap-12 bg-white p-[35px] rounded-lg left-[25%] z-10 shadow-md lg:flex-wrap md:flex-wrap">
+      <div className="flex absolute flex-wrap justify-center gap-12 bg-white p-[35px] rounded-lg left-[25%] z-20 shadow-md lg:flex-wrap md:flex-wrap">
           <div className='flex gap-3'>
             <Image src={"/images/icon_1.png"} alt='img' width={60} height={0}/>
             <div className='flex flex-col text-left p-2'>
