@@ -1,99 +1,112 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+
 import Image from "next/image";
-interface NavbarProps {}
+import Link from "next/link";
+import { useState } from "react";
+import { BsCardList } from "react-icons/bs";
+import { FaStore } from "react-icons/fa";
+import { GoHome } from "react-icons/go";
+import { LuLayoutDashboard } from "react-icons/lu";
 
-const Navbar: React.FC<NavbarProps> = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [shouldAnimate, setShouldAnimate] = useState<boolean>(false);
-  const menuRef = useRef<HTMLDivElement>(null);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    setShouldAnimate(true);
+const Navbar = () => {
+  const [navbar, setNavbar] = useState(false);
+  const onClickHandler = () => {
+    setNavbar(!navbar);
   };
-
-  useEffect(() => {
-    const menuElement = menuRef.current;
-
-    const handleAnimationEnd = () => {
-      setShouldAnimate(false);
-      if (menuElement) {
-        menuElement.classList.remove("animate-again");
-      }
-    };
-
-    if (menuElement) {
-      menuElement.addEventListener("animationend", handleAnimationEnd);
-    }
-
-    return () => {
-      if (menuElement) {
-        menuElement.removeEventListener("animationend", handleAnimationEnd);
-      }
-    };
-  }, []);
-
   return (
-    <div className="bg-white p-7 shadow-lg flex items-center justify-between">
-      <div className="left flex items-center gap-5">
-        <Image alt="logo" src="/images/logo.png" width={50} height={50} />
-        <p className="font-bold text-2xl">
+    <nav className="w-full px-5 gap-3 h-20 shadow relative z-[30] flex items-center justify-between bg-white   md:flex md:justify-between md:items-center">
+      <span className="cursor-pointer md:w-[500px] z-[40] bg-white w-full h-full flex items-center gap-4 ">
+        <Link href="/">
+          <div className="logo text-3xl text-[#EFBA00] font-['Nunito',sans-serif]">
+            <Image width={50} height={50} alt="image" src="/images/logo.png" />
+          </div>
+        </Link>
+        <p className="font-bold text-xl">
           UNAVAR
           {/* UNAVAR FOOD INSPECTION & <br /> CERTIFICATION PRIVATE LIMITED */}
         </p>
-      </div>
-      <div className="right">
-        <div
-          ref={menuRef}
-          className={`menu flex flex-col absolute gap-7 list-none font-[500] top-10 right-7  ${
-            isOpen ? "block" : "hidden"
-          } ${
-            shouldAnimate ? "animate-slide-down animate-again" : ""
-          } sm:flex-row sm:gap-5 sm:static`}
+      </span>
+
+      <div
+        className="text-5xl cursor-pointer mx-2 md:hidden block h-10 w-7"
+        onClick={onClickHandler}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === "Spacebar") {
+            e.preventDefault();
+            onClickHandler();
+          }
+        }}
+        role="button"
+        tabIndex={0}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
         >
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">About Us</a>
-          </li>
-          <li>
-            <a href="">Services</a>
-          </li>
-          <li>
-            <a href="">Industry</a>
-          </li>
-          <li>
-            <a href="">clients</a>
-          </li>
-          <li>
-            <a href="">Blogs</a>
-          </li>
-          <li>
-            <a href="">Contact Us</a>
-          </li>
-        </div>
-        <div className="sm:hidden">
-          <button onClick={toggleMenu}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          </button>
-        </div>
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 6h16M4 12h16m-7 6h7"
+          />
+        </svg>
       </div>
-    </div>
+      <ul
+        className={`md:flex md:items-center z-50  md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100  mt-0 transition-all ease-in duration-500 ${
+          !navbar && "opacity-0 top-[-400px]"
+        } ${navbar && "opacity-100 top-20"}`}
+      >
+        <li className="mx-4 mb-6 md:my-0">
+          <Link href="/" className=" flex items-center gap-1 text-l text-black">
+            <p>Home</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            target="_blank"
+            href="https://shop.labnbox.com/"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>About Us</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/events"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>Services</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/blogs"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>Industry</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/blogs"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>Clients</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/blogs"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>Contact Us</p>
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
