@@ -7,15 +7,17 @@ import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonial";
 import Banner from "@/components/subcomponents/banner";
 import { Slider } from "@/components/Slider";
+import Maps from "@/components/Maps";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Slider />
       <Qci />
       <Service />
       <Testimonial />
+      <Maps />
       <Clients />
       <Banner />
       <Footer />
