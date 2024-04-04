@@ -16,8 +16,8 @@ export default function Home() {
       <Slider />
       <Qci />
       <Service />
-      <Testimonial />
       <Maps />
+      <Testimonial />
       <Clients />
       <Banner />
       <Footer />
