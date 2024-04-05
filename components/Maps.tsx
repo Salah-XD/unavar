@@ -14,11 +14,11 @@ const Maps = (props: Props) => {
               src={"/images/icon_1.png"}
               alt="img"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               objectPosition="center"
             />
           </div>
-          <div className="flex flex-col text-left p-2">
+          <div className="flex flex-col text-left p-1">
             <a className="text-black font-bold text-lg">825+</a>
             <p className="text-black font-normal">xxx</p>
           </div>
@@ -30,11 +30,11 @@ const Maps = (props: Props) => {
               src={"/images/icon_2.png"}
               alt="img"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               objectPosition="center"
             />
           </div>{" "}
-          <div className="flex flex-col text-left p-2">
+          <div className="flex flex-col text-left p-1">
             <a className="text-black font-bold text-lg">825+</a>
             <p className="text-black font-normal">xxx</p>
           </div>
@@ -46,11 +46,11 @@ const Maps = (props: Props) => {
               src={"/images/icon_3.png"}
               alt="img"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               objectPosition="center"
             />
           </div>{" "}
-          <div className="flex flex-col text-left p-2">
+          <div className="flex flex-col text-left p-1">
             <a className="text-black font-bold text-lg">825+</a>
             <p className="text-black font-normal">xxx</p>
           </div>
@@ -62,11 +62,11 @@ const Maps = (props: Props) => {
               src={"/images/icon_4.png"}
               alt="img"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               objectPosition="center"
             />
           </div>{" "}
-          <div className="flex flex-col text-left p-2">
+          <div className="flex flex-col text-left p-1">
             <a className="text-black font-bold text-lg">825+</a>
             <p className="text-black font-normal">xxx</p>
           </div>
