@@ -8,10 +8,12 @@ import Testimonial from "@/components/Testimonial";
 import Banner from "@/components/subcomponents/banner";
 import { Slider } from "@/components/Slider";
 import Maps from "@/components/Maps";
+import Testnav from "@/components/Testnav";
 
 export default function Home() {
   return (
     <div>
+      <Testnav />
       <Navbar />
       <Slider />
       <Qci />
