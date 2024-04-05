@@ -78,7 +78,7 @@ const Maps = (props: Props) => {
             All Across India
           </a>
           <div className="flex text-white flex-col gap-5 p-[30px]">
-            <ul className="flex gap-8 justify-center text-xs sm:text-sm md:text-xs md:flex md:gap-[50px] lg:text-sm xl:text-xl list-disc">
+            <ul className="flex flex-wrap md:gap-8 gap-x-5 gap-y-5 justify-center text-xs sm:text-sm md:text-xs md:flex  lg:text-sm xl:text-xl list-disc">
               <li className="text-white font-regular ">NEWDELHI</li>
               <li className="text-white font-regular">MUMBAI</li>
               <li className="text-white font-regular">BANGLORE</li>
