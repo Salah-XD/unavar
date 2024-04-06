@@ -6,7 +6,7 @@ type Props = {};
 const Maps = (props: Props) => {
   return (
     <div className="relative">
-      <div className="flex absolute flex-wrap justify-center md:gap-[6rem] gap-7 bg-white p-[35px] top-[15rem] rounded-lg left-0 md:left-[20%] z-20 shadow-lg lg:flex-wrap md:flex-wrap mx-4  md:mx-0">
+      <div className="flex absolute flex-wrap justify-center md:gap-[6rem] gap-7 bg-white p-[35px] top-[16rem] rounded-lg left-0 md:left-[20%] z-20 shadow-lg lg:flex-wrap md:flex-wrap mx-4  md:mx-0">
         <div className="flex gap-3">
           <div className="relative w-[50px] h-[50px]">
             {" "}
@@ -78,7 +78,7 @@ const Maps = (props: Props) => {
             All Across India
           </a>
           <div className="flex text-white flex-col gap-5 p-[30px]">
-            <ul className="flex flex-wrap md:gap-8 gap-x-5 gap-y-5 justify-center text-xs sm:text-sm md:text-xs md:flex  lg:text-sm xl:text-xl list-disc">
+            <ul className="flex flex-wrap md:gap-x-[32px] md:gap-y-[20px] gap-x-5 gap-y-5 justify-center text-xs sm:text-sm md:text-xs md:flex  lg:text-sm xl:text-xl list-disc">
               <li className="text-white font-regular ">NEWDELHI</li>
               <li className="text-white font-regular">MUMBAI</li>
               <li className="text-white font-regular">BANGLORE</li>
