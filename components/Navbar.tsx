@@ -67,7 +67,7 @@ const Navbar = () => {
         <li className="mx-4 mb-6 md:my-0">
           <Link
             target="_blank"
-            href="https://shop.labnbox.com/"
+            href="/aboutus"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>About Us</p>
@@ -75,7 +75,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/events"
+            href="/services"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Services</p>
@@ -83,7 +83,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/blogs"
+            href="/industry"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Industry</p>
@@ -91,7 +91,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/blogs"
+            href="/"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Clients</p>
@@ -99,7 +99,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/blogs"
+            href="/contact"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Contact Us</p>
