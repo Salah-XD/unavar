@@ -6,7 +6,7 @@ type Props = {};
 const Maps = (props: Props) => {
   return (
     <div className="relative">
-      <div className="flex absolute flex-wrap justify-center md:gap-[6rem] gap-7 bg-white p-[35px] top-[16rem] rounded-lg left-0 md:left-[20%] z-20 shadow-lg lg:flex-wrap md:flex-wrap mx-4  md:mx-0">
+      <div className="flex absolute flex-wrap justify-center md:gap-[6rem] gap-4 bg-white p-[35px] top-[16rem] rounded-lg md:left-[10%] md:right-[10%] z-20 shadow-lg lg:flex-wrap md:flex-wrap mx-4  md:mx-0">
         <div className="flex gap-3">
           <div className="relative w-[50px] h-[50px]">
             {" "}
@@ -44,6 +44,38 @@ const Maps = (props: Props) => {
             {" "}
             <Image
               src={"/images/icon_3.png"}
+              alt="img"
+              layout="fill"
+              objectFit="contain"
+              objectPosition="center"
+            />
+          </div>{" "}
+          <div className="flex flex-col text-left p-1">
+            <a className="text-black font-bold text-lg">825+</a>
+            <p className="text-black font-normal">xxx</p>
+          </div>
+        </div>
+        <div className="flex gap-3">
+          <div className="relative w-[60px] h-[50px]">
+            {" "}
+            <Image
+              src={"/images/icon_4.png"}
+              alt="img"
+              layout="fill"
+              objectFit="contain"
+              objectPosition="center"
+            />
+          </div>{" "}
+          <div className="flex flex-col text-left p-1">
+            <a className="text-black font-bold text-lg">825+</a>
+            <p className="text-black font-normal">xxx</p>
+          </div>
+        </div>
+        <div className="flex gap-3">
+          <div className="relative w-[60px] h-[50px]">
+            {" "}
+            <Image
+              src={"/images/icon_4.png"}
               alt="img"
               layout="fill"
               objectFit="contain"
