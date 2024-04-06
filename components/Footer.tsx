@@ -1,45 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Addbanner from "./Addbanner";
 import Banner from "./subcomponents/banner";
 
 const Footer = () => {
   return (
     <div className="">
       <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left h-[30vh]">
-        <div className="flex flex-wrap gap-7 justify-around p-[30px] bg-white">
-          <div className="flex flex-col">
-            <div className="flex justify-center p-[10px] gap-5">
-              <Image alt="img" src="/images/loc.png" width={30} height={30} />
-              <a className="text-black font-extrabold text-center text-[20px]">
-                Address
-              </a>
-            </div>
-            <div className=" text-center indent-16 text-wrap">
-              <p className="text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col">
-            <div className="flex justify-center p-[10px] gap-5">
-              <Image alt="img" src="/images/wp.png" width={30} height={30} />
-              <a className="text-black font-extrabold text-[20px]">Whatsapp</a>
-            </div>
-            <div className="text-center indent-16 text-wrap">
-              <p className="text-black">9876365726</p>
-            </div>
-          </div>
-          <div className="flex flex-col">
-            <div className="flex justify-center p-[10px] gap-5">
-              <Image alt="img" src="/images/mail.png" width={30} height={30} />
-              <a className="text-black font-extrabold text-[20px]">Email</a>
-            </div>
-            <div className="text-center indent-16 text-wrap">
-              <p className="text-black">abc@gmail.com</p>
-            </div>
-          </div>
-        </div>
-        <hr></hr>
         <div className="flex flex-wrap justify-around gap-10  bg-white p-[40px] mb-10 pb-10">
           <div className="flex flex-col gap-5 w-[400px]">
             <div className="left flex items-center gap-5">

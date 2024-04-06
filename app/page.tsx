@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonial";
 import Banner from "@/components/subcomponents/banner";
 import { Slider } from "@/components/Slider";
+import Addbanner from "@/components/Addbanner";
 import Maps from "@/components/Maps";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonial />
       <Clients />
       <Banner />
+      <Addbanner />
       <Footer />
     </div>
   );
