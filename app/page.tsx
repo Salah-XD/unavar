@@ -9,16 +9,20 @@ import Banner from "@/components/subcomponents/banner";
 import { Slider } from "@/components/Slider";
 import Addbanner from "@/components/Addbanner";
 import Maps from "@/components/Maps";
+import Testnav from "@/components/Testnav";
+import MyGallery from "@/components/MyGallery";
 
 export default function Home() {
   return (
     <div>
+      <Testnav />
       <Navbar />
       <Slider />
       <Qci />
       <Service />
       <Maps />
       <Testimonial />
+      <MyGallery />
       <Clients />
       <Banner />
       <Addbanner />
