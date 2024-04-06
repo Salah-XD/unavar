@@ -26,7 +26,7 @@ const About = (props: Props) => {
       {/* ------- */}
       <div className="flex flex-col justify-center align-middle p-2 md:p-20">
         <div className="flex flex-col p-10">
-          <p>
+          <p className="text-center text-wrap">
             Unavar Food Inspection and Certification Private Limited is an certification body which is formed to ensure the Food Business operators in India get Certified under different schemes of Food safety standards authority of India ( FSSAI) , standards of International Organization for Standardization ( ISO) and other Global Standards.
             Unavar Food Inspection and Certification Private Limited&LSQUO;s vision is to make FBO&LSQUO;s undergo different certifications in any part of the country in ease manner to ensure the meet the requirements of National and Global Food Safety standards and provide safe and wholesome food to the consumers.
             Unavar Food Inspection and Certification Private Limited aims to be connected with the society and Food business operators through young, talented and passionate professional who are trained and made competent to deliver knowledge about food safety to the industry. Unavar Food Inspection and Certification Private Limited provides certification to food business operators which ensures the consumers the following Safe Food is prepared and served Meets the requirements of National food safety standards or Global Standards Rating of the FBO according to the practices they follow
