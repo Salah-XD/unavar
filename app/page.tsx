@@ -9,6 +9,7 @@ import Banner from "@/components/subcomponents/banner";
 import { Slider } from "@/components/Slider";
 import Maps from "@/components/Maps";
 import Testnav from "@/components/Testnav";
+import MyGallery from "@/components/MyGallery";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Service />
       <Maps />
       <Testimonial />
+      <MyGallery />
       <Clients />
       <Banner />
       <Footer />
