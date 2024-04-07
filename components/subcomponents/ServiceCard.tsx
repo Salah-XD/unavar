@@ -15,7 +15,14 @@ interface ServiceCardProps {
   path: string;
 }
 
-const ServiceCard = ({ head, desc, image, btn, pimg,path }: ServiceCardProps) => {
+const ServiceCard = ({
+  head,
+  desc,
+  image,
+  btn,
+  pimg,
+  path,
+}: ServiceCardProps) => {
   return (
     <div className="group relative w-[350px] h-[410px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
       <Image
@@ -35,12 +42,11 @@ const ServiceCard = ({ head, desc, image, btn, pimg,path }: ServiceCardProps) =>
         <PopoverContent align="start" sideOffset={10} className="p-5 bg-white">
           <p className="text-lg text-[#0f7a87]">{desc}</p>
           <Image src={pimg} width={1000} height={1000} alt="img" />
-          <Link href={path}>
+          {/* <Link href={path}>
             <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg w-fit">
               View More
             </p>    
-          </Link>
-          
+          </Link> */}
         </PopoverContent>
       </Popover>
     </div>

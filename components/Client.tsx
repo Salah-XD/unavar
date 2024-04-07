@@ -25,10 +25,10 @@ const Clients = () => {
       <div>
         <div className="flex flex-wrap justify-center gap-7">
           <ClientCard img={img1} />
-          <ClientCard img={img2} />
           <ClientCard img={img3} />
           <ClientCard img={img4} />
           <ClientCard img={img5} />
+          <ClientCard img={img2} />
           <ClientCard img={img6} />
           <ClientCard img={img7} />
         </div>

@@ -1,13 +1,11 @@
 "use client";
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 import Carousel from "react-multi-carousel";
-import ClientCard from './subcomponents/ClientCard';
+import ClientCard from "./subcomponents/ClientCard";
 import "react-multi-carousel/lib/styles.css";
 
-
-type Props = {}
-
+type Props = {};
 
 const img1 = "/images/Sapphire.png";
 const img2 = "/images/Anjappar.jpg";
@@ -18,67 +16,77 @@ const img6 = "/images/Kitchen.jpg";
 const img7 = "/images/Kitchen.jpg";
 
 const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 const Testclient = (props: Props) => {
   return (
     <div className="mt-[140px] md:m-10">
       <div className="bg-primary-500 text-center py-6 pt-20">
-        <h1 className="text-center text-4xl font-semibold">Our Major Clients</h1>
+        <h1 className="text-center text-4xl font-semibold">
+          Our Major Clients
+        </h1>
         <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">
           Building Trust Through Quality Assurance
         </p>
       </div>
       <center>
         <Carousel
+        arrows={false}
+          additionalTransfrom={0}
+          autoPlay
+          autoPlaySpeed={1000}
+          centerMode={false}
+          className=""
+          containerClass="container-with-dots"
+          dotListClass=""
+          draggable
+          focusOnSelect={false}
+          infinite={true}
+          itemClass=""
+          keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
           responsive={responsive}
-          className="py-20 w-full"
+          rewind={false}
+          rewindWithAnimation={false}
+          rtl={false}
+          shouldResetAutoplay
           showDots={true}
-          ssr={true}
-          >
-          <div>
-            <ClientCard img={img1} />
-          </div>
-          <div>
-            <ClientCard img={img2} />
-          </div>
-          <div>
-            <ClientCard img={img3} />
-          </div>
-          <div>
-            <ClientCard img={img4} />
-          </div>
-          <div>
-            <ClientCard img={img5} />
-          </div>
-          <div>
-            <ClientCard img={img6} />
-          </div>
-          <div>
-            <ClientCard img={img7} />
-          </div>
+          sliderClass=""
+          slidesToSlide={2}
+          swipeable
+        >
+          <ClientCard img={img1} />
+          <ClientCard img={img3} />
+          <ClientCard img={img4} />
+          <ClientCard img={img5} />
+          <ClientCard img={img2} />
+          <ClientCard img={img6} />
+          <ClientCard img={img7} />
         </Carousel>
       </center>
     </div>
-  )
-}
+  );
+};
 
-export default Testclient
+export default Testclient;
