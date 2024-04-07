@@ -51,7 +51,7 @@ const Testclient = (props: Props) => {
         arrows={false}
           additionalTransfrom={0}
           autoPlay
-          autoPlaySpeed={1000}
+          autoPlaySpeed={2000}
           centerMode={false}
           className=""
           containerClass="container-with-dots"
