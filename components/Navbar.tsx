@@ -15,6 +15,8 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 
+import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
+
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const onClickHandler = () => {
@@ -95,10 +97,28 @@ const Navbar = () => {
                 policies
               </NavigationMenuTrigger>
               <NavigationMenuContent className="">
-                <ul className="flex flex-col  gap-3 p-4 px-9 text-[16px] ">
-                  <NavigationMenuLink>Link</NavigationMenuLink>
-                  <NavigationMenuLink>Link</NavigationMenuLink>
-                  <NavigationMenuLink>Link</NavigationMenuLink>
+                <ul className="flex flex-col  gap-3 p-4  text-[16px] ">
+                  <Link href="/impartiality-policy">
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Impartiality Policy
+                    </NavigationMenuLink>
+                  </Link>
+                  <Link href="/confidential-policy">
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Confidential Policy
+                    </NavigationMenuLink>
+                  </Link>
+                  <Link href="/quality-policy">
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Quality Policy
+                    </NavigationMenuLink>
+                  </Link>
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
