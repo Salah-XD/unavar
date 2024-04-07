@@ -3,10 +3,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { BsCardList } from "react-icons/bs";
-import { FaStore } from "react-icons/fa";
-import { GoHome } from "react-icons/go";
-import { LuLayoutDashboard } from "react-icons/lu";
+
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -81,6 +88,22 @@ const Navbar = () => {
             <p>Services</p>
           </Link>
         </li>
+        <li>
+          <NavigationMenu className="p-0 mx-4">
+            <NavigationMenuItem className="p-0">
+              <NavigationMenuTrigger className="text-[16px] p-0">
+                policies
+              </NavigationMenuTrigger>
+              <NavigationMenuContent className="">
+                <ul className="flex flex-col  gap-3 p-4 px-9 text-[16px] ">
+                  <NavigationMenuLink>Link</NavigationMenuLink>
+                  <NavigationMenuLink>Link</NavigationMenuLink>
+                  <NavigationMenuLink>Link</NavigationMenuLink>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+          </NavigationMenu>
+        </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
             href="/industry"
@@ -90,10 +113,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="mx-4 mb-6 md:my-0">
-          <Link
-            href="/"
-            className=" flex items-center gap-1 text-l text-black"
-          >
+          <Link href="/" className=" flex items-center gap-1 text-l text-black">
             <p>Clients</p>
           </Link>
         </li>

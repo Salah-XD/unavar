@@ -13,7 +13,7 @@ const Maps = (props: Props) => {
             <Image
               src={"/images/icon_1.png"}
               alt="img"
-              layout="fill"
+              fill
               objectFit="contain"
               objectPosition="center"
             />
@@ -29,7 +29,7 @@ const Maps = (props: Props) => {
             <Image
               src={"/images/icon_2.png"}
               alt="img"
-              layout="fill"
+              fill
               objectFit="contain"
               objectPosition="center"
             />
@@ -45,7 +45,7 @@ const Maps = (props: Props) => {
             <Image
               src={"/images/icon_3.png"}
               alt="img"
-              layout="fill"
+              fill
               objectFit="contain"
               objectPosition="center"
             />
@@ -61,7 +61,7 @@ const Maps = (props: Props) => {
             <Image
               src={"/images/icon_4.png"}
               alt="img"
-              layout="fill"
+              fill
               objectFit="contain"
               objectPosition="center"
             />
@@ -77,7 +77,7 @@ const Maps = (props: Props) => {
             <Image
               src={"/images/icon_4.png"}
               alt="img"
-              layout="fill"
+              fill
               objectFit="contain"
               objectPosition="center"
             />
@@ -93,7 +93,7 @@ const Maps = (props: Props) => {
             <Image
               src={"/images/icon_4.png"}
               alt="img"
-              layout="fill"
+              fill
               objectFit="contain"
               objectPosition="center"
             />

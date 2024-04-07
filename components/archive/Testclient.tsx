@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
-import ClientCard from "./subcomponents/ClientCard";
+import ClientCard from "../subcomponents/ClientCard";
 import "react-multi-carousel/lib/styles.css";
 
 type Props = {};
@@ -48,7 +48,7 @@ const Testclient = (props: Props) => {
       </div>
       <center>
         <Carousel
-        arrows={false}
+          arrows={false}
           additionalTransfrom={0}
           autoPlay
           autoPlaySpeed={1000}

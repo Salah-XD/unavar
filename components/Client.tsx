@@ -1,6 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import Carousel from "react-multi-carousel";
 import ClientCard from "./subcomponents/ClientCard";
+import "react-multi-carousel/lib/styles.css";
+
+type Props = {};
 
 const img1 = "/images/Sapphire.png";
 const img2 = "/images/Anjappar.jpg";
@@ -10,20 +15,67 @@ const img5 = "/images/Kitchen.jpg";
 const img6 = "/images/Kitchen.jpg";
 const img7 = "/images/Kitchen.jpg";
 
-const Clients = () => {
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
+
+const Testclient = (props: Props) => {
   return (
-    <div className=" bg-[#d3faff] py-20  px-10">
-      <div className="flex flex-col gap-3 justify-center text-center py-5">
+    <div className="mt-[140px] md:m-10">
+      <div className="bg-primary-500 text-center py-6 pt-20">
         <h1 className="text-center text-4xl font-semibold">
           Our Major Clients
         </h1>
-        <p className="text-[#0f7a87] text-2xl text-center mb-20 font-medium">
-          Building trust through Quality assurance
+        <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">
+          Building Trust Through Quality Assurance
         </p>
       </div>
-
-      <div>
-        <div className="flex flex-wrap justify-center gap-7">
+      <center>
+        <Carousel
+        arrows={false}
+          additionalTransfrom={0}
+          autoPlay
+          autoPlaySpeed={1000}
+          centerMode={false}
+          className=""
+          containerClass="container-with-dots"
+          dotListClass=""
+          draggable
+          focusOnSelect={false}
+          infinite={true}
+          itemClass=""
+          keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
+          responsive={responsive}
+          rewind={false}
+          rewindWithAnimation={false}
+          rtl={false}
+          shouldResetAutoplay
+          showDots={true}
+          sliderClass=""
+          slidesToSlide={2}
+          swipeable
+        >
           <ClientCard img={img1} />
           <ClientCard img={img3} />
           <ClientCard img={img4} />
@@ -31,11 +83,10 @@ const Clients = () => {
           <ClientCard img={img2} />
           <ClientCard img={img6} />
           <ClientCard img={img7} />
-        </div>
-      </div>
+        </Carousel>
+      </center>
     </div>
-    // bg-[#d3faff] -Use for background
   );
 };
 
-export default Clients;
+export default Testclient;
