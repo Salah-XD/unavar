@@ -6,7 +6,7 @@ type Props = {};
 const Maps = (props: Props) => {
   return (
     <div className="relative">
-      <div className="flex absolute flex-wrap justify-center md:gap-[6rem] gap-4 bg-white p-[35px] top-[16rem] rounded-lg md:left-[10%] md:right-[10%] z-20 shadow-lg lg:flex-wrap md:flex-wrap mx-4  md:mx-0">
+      <div className="flex absolute flex-wrap justify-center md:gap-[2rem] gap-4 bg-white p-[40px] top-[16rem] rounded-lg md:left-[10%] md:right-[10%] z-20 shadow-lg lg:flex-wrap md:flex-wrap mx-4  md:mx-0">
         <div className="flex gap-3">
           <div className="relative w-[50px] h-[50px]">
             {" "}
