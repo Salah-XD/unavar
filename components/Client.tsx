@@ -12,7 +12,7 @@ const img2 = "/images/Anjappar.jpg";
 const img3 = "/images/HardCastle.png";
 const img4 = "/images/Jubilant.png";
 const img5 = "/images/Kitchen.jpg";
-const img6 = "/images/Kitchen.jpg";
+const img6 = "/images/Kitchen.jpg";    
 const img7 = "/images/Kitchen.jpg";
 
 const responsive = {

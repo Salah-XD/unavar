@@ -1,4 +1,9 @@
 {
+  "typeRoots": [
+    "../node_modules/@types",
+    "../@types"
+  ],
+  
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -21,6 +26,8 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "noImplicitAny": false,
+
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "node_modules/@types/alltypes.d.ts"],
   "exclude": ["node_modules"]
 }
