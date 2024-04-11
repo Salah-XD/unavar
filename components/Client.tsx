@@ -12,7 +12,7 @@ const img2 = "/images/Anjappar.jpg";
 const img3 = "/images/HardCastle.png";
 const img4 = "/images/Jubilant.png";
 const img5 = "/images/Kitchen.jpg";
-const img6 = "/images/Kitchen.jpg";    
+const img6 = "/images/Kitchen.jpg";
 const img7 = "/images/Kitchen.jpg";
 
 const responsive = {
@@ -37,7 +37,7 @@ const responsive = {
 
 const Testclient = (props: Props) => {
   return (
-    <div className="mt-[140px] md:m-10">
+    <div className="mt-[140px] my-10 md:m-10">
       <div className="bg-primary-500 text-center py-6 pt-20">
         <h1 className="text-center text-4xl font-semibold">
           Our Major Clients
@@ -48,7 +48,7 @@ const Testclient = (props: Props) => {
       </div>
       <center>
         <Carousel
-        arrows={false}
+          arrows={false}
           additionalTransfrom={0}
           autoPlay
           autoPlaySpeed={2000}
