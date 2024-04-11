@@ -45,7 +45,15 @@ const images = [
 ];
 
 const MyGallery = () => {
-  return <ImageGallery items={images} />;
+  return (
+    <div className="mt-10">
+      {" "}
+      <h2 className="my-10 text-4xl text-center font-semibold leading-[1.5] text-[#000000]">
+        Gallery{" "}
+      </h2>
+      <ImageGallery items={images} />{" "}
+    </div>
+  );
 };
 
 export default MyGallery;
