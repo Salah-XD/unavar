@@ -1,5 +1,6 @@
 import ServiceCard from "./subcomponents/ServiceCard";
 import AuditCard from "./subcomponents/AuditCard";
+import Link from "next/link";
 
 const Service = () => {
   return (
@@ -23,14 +24,16 @@ const Service = () => {
         Certifications we Offer{" "}
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
-        <ServiceCard
-          head="Hygiene Rating"
-          desc="We ensure that your food products meet safety and qquality"
-          image="/images/hygiene.png"
-          btn="Sample Cerificate"
-          pimg="/images/certificates/hygiene-cer.png"
-          path="/services"
-        />
+        <Link href="/services/hygiene-rating" className="cursor">
+          <ServiceCard
+            head="Hygiene Rating"
+            desc="We ensure that your food products meet safety and qquality"
+            image="/images/hygiene.png"
+            btn="Sample Cerificate"
+            pimg="/images/certificates/hygiene-cer.png"
+            path="/services"
+          />
+        </Link>
         <ServiceCard
           head="Eat Right Station"
           desc="We ensure that your food products meet safety and qquality"

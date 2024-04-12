@@ -50,11 +50,11 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
-          <div className="flex flex-col">
-            <div className="text-black font-bold text-lg">Useful links</div>
-            <div>
-              {/* <iframe
+          <div className="flex flex-col ">
+            <div className="flex flex-col gap-4">
+              <div className="text-black font-bold text-lg">Useful links</div>
+              {/* <div>
+              <iframe
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/5X2Kk8BWmqo?si=Hp199dfToy6D4jH0"
@@ -63,7 +63,46 @@ const Footer = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
-              ></iframe> */}
+              ></iframe>
+            </div> */}
+              <div className="flex flex-col gap-2 ">
+                <a
+                  href="https://hygiene.fssai.gov.in/index.php"
+                  className="text-black font-regular hover:cursor-pointer"
+                >
+                  Hygiene Rating
+                </a>
+                <a
+                  href="https://eatrightindia.gov.in/eatrightstation/"
+                  className="text-black font-regular hover:cursor-pointer"
+                >
+                  Eat Right Station
+                </a>
+                <a
+                  href="https://eatrightindia.gov.in/EatRightCampus/home"
+                  className="text-black font-regular hover:cursor-pointer"
+                >
+                  Eat Right Campus
+                </a>
+                <a
+                  href="https://eatrightindia.gov.in/eatrightplaceofworship/index.php"
+                  className="text-black font-regular hover:cursor-pointer"
+                >
+                  Bhog
+                </a>
+                <a
+                  href="https://eatrightindia.gov.in/fruitsandvegetablesmarket/index.php"
+                  className="text-black font-regular hover:cursor-pointer"
+                >
+                  Clean Veg Market
+                </a>
+                <a
+                  href="https://eatrightindia.gov.in/streetfoodhub/home"
+                  className="text-black font-regular hover:cursor-pointer"
+                >
+                  Clean Street Food Hub
+                </a>
+              </div>
             </div>
           </div>
         </div>

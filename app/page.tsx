@@ -6,10 +6,10 @@ import Clients from "@/components/Client";
 import Footer from "@/components/Footer";
 import Testimonial from "@/components/Testimonial";
 import Banner from "@/components/subcomponents/banner";
-import { Slider } from "@/components/Slider";
 import Addbanner from "@/components/Addbanner";
 import Maps from "@/components/Maps";
 import MyGallery from "@/components/MyGallery";
+import Slider from "@/components/Slider";
 
 export default function Home() {
   return (

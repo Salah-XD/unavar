@@ -1,107 +1,23 @@
 import React from "react";
 import Image from "next/image";
+import Stat from "./subcomponents/Stat";
 
 type Props = {};
 
 const Maps = (props: Props) => {
   return (
     <div className="relative">
-      <div className="flex absolute flex-wrap justify-center md:gap-[2rem] gap-4 bg-white p-[40px] top-[16rem] rounded-lg md:left-[10%] md:right-[10%] z-20 shadow-lg lg:flex-wrap md:flex-wrap mx-4  md:mx-0">
-        <div className="flex gap-3">
-          <div className="relative w-[50px] h-[50px]">
-            {" "}
-            <Image
-              src={"/images/icon_1.png"}
-              alt="img"
-              fill
-              objectFit="contain"
-              objectPosition="center"
-            />
-          </div>
-          <div className="flex flex-col text-left p-1">
-            <a className="text-black font-bold text-lg">825+</a>
-            <p className="text-black font-normal">xxx</p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <div className="relative w-[50px] h-[50px]">
-            {" "}
-            <Image
-              src={"/images/icon_2.png"}
-              alt="img"
-              fill
-              objectFit="contain"
-              objectPosition="center"
-            />
-          </div>{" "}
-          <div className="flex flex-col text-left p-1">
-            <a className="text-black font-bold text-lg">825+</a>
-            <p className="text-black font-normal">xxx</p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <div className="relative w-[50px] h-[50px]">
-            {" "}
-            <Image
-              src={"/images/icon_3.png"}
-              alt="img"
-              fill
-              objectFit="contain"
-              objectPosition="center"
-            />
-          </div>{" "}
-          <div className="flex flex-col text-left p-1">
-            <a className="text-black font-bold text-lg">825+</a>
-            <p className="text-black font-normal">xxx</p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <div className="relative w-[60px] h-[50px]">
-            {" "}
-            <Image
-              src={"/images/icon_4.png"}
-              alt="img"
-              fill
-              objectFit="contain"
-              objectPosition="center"
-            />
-          </div>{" "}
-          <div className="flex flex-col text-left p-1">
-            <a className="text-black font-bold text-lg">825+</a>
-            <p className="text-black font-normal">xxx</p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <div className="relative w-[60px] h-[50px]">
-            {" "}
-            <Image
-              src={"/images/icon_4.png"}
-              alt="img"
-              fill
-              objectFit="contain"
-              objectPosition="center"
-            />
-          </div>{" "}
-          <div className="flex flex-col text-left p-1">
-            <a className="text-black font-bold text-lg">825+</a>
-            <p className="text-black font-normal">xxx</p>
-          </div>
-        </div>
-        <div className="flex gap-3">
-          <div className="relative w-[60px] h-[50px]">
-            {" "}
-            <Image
-              src={"/images/icon_4.png"}
-              alt="img"
-              fill
-              objectFit="contain"
-              objectPosition="center"
-            />
-          </div>{" "}
-          <div className="flex flex-col text-left p-1">
-            <a className="text-black font-bold text-lg">825+</a>
-            <p className="text-black font-normal">xxx</p>
-          </div>
+      <div className=" absolute  md:gap-[2rem]  bg-white p-[40px] top-[16rem] rounded-lg md:left-[10%] md:right-[10%] z-20 shadow-lg  mx-4  md:mx-0">
+        <h1 className="text-2xl font-bold text-center mb-6">
+          Certificate Issued
+        </h1>
+        <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap justify-center">
+          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
+          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
+          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
+          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
+          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
+          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
         </div>
       </div>
       <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/Maps.png)]">
