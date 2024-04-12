@@ -122,14 +122,14 @@ const Navbar = () => {
             </NavigationMenuItem>
           </NavigationMenu>
         </li>
-        <li className="mx-4 mb-6 md:my-0">
+        {/* <li className="mx-4 mb-6 md:my-0">
           <Link
             href="/industry"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Industry</p>
           </Link>
-        </li>
+        </li> */}
         {/* <li className="mx-4 mb-6 md:my-0">
           <Link href="/" className=" flex items-center gap-1 text-l text-black">
             <p>Clients</p>
