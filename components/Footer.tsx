@@ -88,7 +88,7 @@ const Footer = () => {
                   href="https://eatrightindia.gov.in/eatrightplaceofworship/index.php"
                   className="text-black font-regular hover:cursor-pointer"
                 >
-                  Bhog
+                  Blog
                 </a>
                 <a
                   href="https://eatrightindia.gov.in/fruitsandvegetablesmarket/index.php"
