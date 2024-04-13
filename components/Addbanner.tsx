@@ -13,11 +13,11 @@ const Addbanner = (props: Props) => {
             Address
           </a>
         </div>
-        <div className=" text-center indent-16 text-wrap">
+        <div className=" text-center text-wrap">
           <p className="text-black">
-            Unavar Food Inspection and Certification Private Limited, Flat no.
-            F1, First Floor, Door No :519, MM Illam, MKN Road, Adambakkam
-            Village, Alandur, Chennai - 600016{" "}
+            Unavar Food Inspection and Certification Private Limited, <br />{" "}
+            Flat no. F1, First Floor, Door No :519, MM Illam, MKN Road, <br />{" "}
+            Adambakkam Village, Alandur, Chennai - 600016{" "}
           </p>
         </div>
       </div>
@@ -26,7 +26,7 @@ const Addbanner = (props: Props) => {
           <Image alt="img" src="/images/wp.png" width={30} height={30} />
           <a className="text-black font-extrabold text-[20px]">Whatsapp</a>
         </div>
-        <div className="text-center indent-16 text-wrap">
+        <div className="text-center text-wrap">
           <p className="text-black">+91 8838870687</p>
         </div>
       </div>
@@ -35,8 +35,8 @@ const Addbanner = (props: Props) => {
           <Image alt="img" src="/images/mail.png" width={30} height={30} />
           <a className="text-black font-extrabold text-[20px]">Email</a>
         </div>
-        <div className="text-center indent-16 text-wrap">
-          <p className="text-black">abc@gmail.com</p>
+        <div className="text-center text-wrap">
+          <p className="text-black">contact@unavar.com</p>
         </div>
       </div>
     </div>

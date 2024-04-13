@@ -12,12 +12,29 @@ const Maps = (props: Props) => {
           Certificate Issued
         </h1>
         <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap justify-center">
-          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
-          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
-          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
-          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
-          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
-          <Stat img="/images/icon_1.png" num={33} desc="xxx" />
+          <Stat
+            img="/images/icon_1.png"
+            num={1516}
+            desc="Hygiene
+                  Rating"
+          />
+          <Stat
+            img="/images/icon_1.png"
+            num={130}
+            desc="Eat Right Place of Worship"
+          />
+          <Stat img="/images/icon_1.png" num={183} desc="Eat Right Campus" />
+          <Stat
+            img="/images/icon_1.png"
+            num={36}
+            desc="Eat Right Clean Vegetable Market"
+          />
+          <Stat
+            img="/images/icon_1.png"
+            num={25}
+            desc="Eat Right Clean Street Food Hub"
+          />
+          <Stat img="/images/icon_1.png" num={12} desc="Eat Right Station" />
         </div>
       </div>
       <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/Maps.png)]">

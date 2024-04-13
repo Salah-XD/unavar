@@ -45,10 +45,10 @@ const About = (props: Props) => {
         </div>
       </div>
       <div className=" justiy-center text-center flex flex-col p-5 flex-wrap text-wrap md:text-md lg:text-lg sm: text-sm xs:text-xs">
-          <a className="font-bold text-3xl text-[#13A6B8] p-2 md:text-md lg:text-3xl sm:text-sm xs:text-xs">It's not just us.</a>
-          <a className="font-semibold text-lg text-black p-2 md:text-md lg:text-2xl sm: text-sm xs:text-xs">Here's what others have to say about us.</a>
+          <a className="font-bold text-3xl text-[#13A6B8] p-2 md:text-md lg:text-3xl sm:text-sm xs:text-xs">It&apos;s not just us.</a>
+          <a className="font-semibold  text-black p-2 md:text-md lg:text-2xl sm: text-sm xs:text-xs">Here&apos;s what others have to say about us.</a>
       </div>
-      <div className="bg-white flex flex-wrap justify-center gap-5 bg-slate-500 p-10">
+      <div className=" flex flex-wrap justify-center gap-5 bg-slate-500 p-10">
         <Aboutcard />
         <Aboutcard />
         <Aboutcard />

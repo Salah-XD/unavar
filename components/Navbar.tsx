@@ -27,13 +27,17 @@ const Navbar = () => {
       <span className="cursor-pointer md:w-[500px] z-[40] bg-white w-full h-full flex items-center gap-4 ">
         <Link href="/">
           <div className="logo text-3xl text-[#EFBA00] font-['Nunito',sans-serif]">
-            <Image width={50} height={50} alt="image" src="/images/logo.png" />
+            <Image
+              width={300}
+              height={300}
+              alt="image"
+              src="/images/header.png"
+            />
           </div>
         </Link>
-        <p className="font-bold text-xl">
+        {/* <p className="font-bold text-xl">
           UNAVAR
-          {/* UNAVAR FOOD INSPECTION & <br /> CERTIFICATION PRIVATE LIMITED */}
-        </p>
+        </p> */}
       </span>
 
       <div
@@ -74,7 +78,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="mx-4 mb-6 md:my-0">
-          <Link href="/aboutus"
+          <Link
+            href="/aboutus"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>About Us</p>
