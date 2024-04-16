@@ -5,16 +5,19 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 import Main from "./Main";
+import { useMediaQuery } from "react-responsive";
 
 type Props = {};
 
 const Slider = (props: Props) => {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+
   return (
     <div className="h-screen">
       <Main />
       <Carousel
         additionalTransfrom={0}
-        arrows={false}
+        arrows={!isMobile}
         autoPlay
         autoPlaySpeed={2000}
         centerMode={false}
