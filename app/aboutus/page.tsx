@@ -45,15 +45,73 @@ const About = (props: Props) => {
         </div>
       </div>
       <div className=" justiy-center text-center flex flex-col p-5 flex-wrap text-wrap md:text-md lg:text-lg sm: text-sm xs:text-xs">
-          <a className="font-bold text-3xl text-[#13A6B8] p-2 md:text-md lg:text-3xl sm:text-sm xs:text-xs">It&apos;s not just us.</a>
-          <a className="font-semibold  text-black p-2 md:text-md lg:text-2xl sm: text-sm xs:text-xs">Here&apos;s what others have to say about us.</a>
+        <a className="font-bold text-3xl text-[#13A6B8] p-2 md:text-md lg:text-3xl sm:text-sm xs:text-xs">
+          Our Team
+        </a>
+        {/* <a className="font-semibold  text-black p-2 md:text-md lg:text-2xl sm: text-sm xs:text-xs">
+          Here&apos;s what others have to say about us.
+        </a> */}
       </div>
-      <div className=" flex flex-wrap justify-center gap-5 bg-slate-500 p-10">
-        <Aboutcard />
-        <Aboutcard />
-        <Aboutcard />
-        <Aboutcard />
-        <Aboutcard />
+      <div className=" flex flex-wrap justify-center gap-5 p-10">
+        <Aboutcard
+          img="/images/About/abt1.png"
+          name="DEVA V"
+          desc="Deva V, a certified ISO 22000:2018 Auditor, Hygiene Rating auditor
+          and a certified Food analyst and Food microbiologist with a post
+          graduate degree in Food and Nutrition Biotechnology. Have 3 years
+          of experience in certification process as well as catering and FMCG
+          industries with more than 200 consultation audits under the FSSAI
+          initiatives and 100 consultation audits in ISO 22000:2018 standards
+          and Hygiene monitoring documentation."
+          role={"Business Development Manager\ndeva@unavar.com"}
+        />
+        <Aboutcard
+          img="/images/About/abt2.png"
+          name="Kashthuri Selvam"
+          desc="Food process engineering graduate from tnau with 5 years of hands-
+          on experience in oil processing, cereals processing, spices processing
+          units. Known expert in label guidance and fssai licensing. Hygiene
+          rating certified auditor with over more than 300 hygiene rating audits
+          completed for different sectors like catering, bakery and meat retail.
+          Was part of getting 1 bhog for the state of tamil nadu. Certified iso
+          22000 lead auditor."
+          role={"HEAD - Operations\nkasthuri@unavar.com"}
+        />
+        <Aboutcard
+          img="/images/About/abt3.png"
+          name="Nandhini L"
+          desc="A certified ISO 22000:2018 Lead Auditor and Hygiene Rating auditor
+          with a post graduate degree in Food Safety and Quality Management.
+          Astute person with an experience of working in regulation bodies in
+          FSSAI southern Region as well as FMCG industry. Having 2 years of
+          Auditing experience and more than 300 audits under the FSSAI ERI
+          scheme."
+          role={"Operations Manager\nnandhini@unavar.com"}
+        />
+        <Aboutcard
+          img="/images/About/abt4.png"
+          name="Preethi G"
+          desc="A certified Hygiene Rating Auditor who successfully completed over
+          200 audits under FSSAI hygiene rating scheme. Did graduation in
+          food technology. Holds ISO 22000:2018 Lead Auditor certification.
+          Had more than 3 years of experience in research and development,
+          quality assurance and food safety. Skilled in developing product and
+          process related specifications for dairy products. Worked in various
+          food businesses including dairy and beverage sector."
+          role={"Technical Manager- Training\npreethi@unavar.com"}
+        />
+        <Aboutcard
+          img="/images/About/abt5.png"
+          name="Sushmitha K"
+          desc="Sushmitha K is a certified auditor for hygiene ratings with a
+          background in Food Technology, holding a Bachelor's degree with
+          three years of experience in the field. She has conducted over 300
+          audits on food safety. Sushmitha is a dedicated, disciplined, and
+          motivated professional with a strong understanding of food safety
+          principles. She is capable of effectively contributing to the
+          achievement of both current and future organizational goals."
+          role={"Hygiene Rating Auditor\nsushmita@unavar.com"}
+        />
       </div>
       <footer>
         <div>

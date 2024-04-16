@@ -30,23 +30,35 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <div className="text-black font-bold text-lg">Main Navigations</div>
             <div className="flex flex-col gap-2 ">
-              <a className="text-black font-regular hover:cursor-pointer">
+              <a
+                href="/"
+                className="text-black font-regular hover:cursor-pointer"
+              >
                 Home
               </a>
-              <a className="text-black font-regular hover:cursor-pointer">
+              <a
+                href="/aboutus"
+                className="text-black font-regular hover:cursor-pointer"
+              >
                 About us
               </a>
-              <a className="text-black font-regular hover:cursor-pointer">
+              <a
+                href="/services"
+                className="text-black font-regular hover:cursor-pointer"
+              >
                 Services
               </a>
-              <a className="text-black font-regular hover:cursor-pointer">
+              {/* <a className="text-black font-regular hover:cursor-pointer">
                 Industry
               </a>
               <a className="text-black font-regular hover:cursor-pointer">
                 Clients
-              </a>
-              <a className="text-black font-regular hover:cursor-pointer">
-                Blogs
+              </a> */}
+              <a
+                href="contact"
+                className="text-black font-regular hover:cursor-pointer"
+              >
+                Contact
               </a>
             </div>
           </div>
