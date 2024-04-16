@@ -12,7 +12,11 @@ const Maps = (props: Props) => {
           Certificate Issued
         </h1>
         <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap md:justify-between justify-start m-auto ">
-          <Stat img="/images/icon_1.png" num={1516} desc={`Hygiene \nRating`} />
+          <Stat
+            img="/images/icon_1.png"
+            num={(1516)}
+            desc={`Hygiene \nRating`}
+          />
           <Stat
             img="/images/icon_1.png"
             num={130}
