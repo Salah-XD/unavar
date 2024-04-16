@@ -94,9 +94,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <NavigationMenu className="p-0 mx-4">
-            <NavigationMenuItem className="p-0">
-              <NavigationMenuTrigger className="text-[16px] p-0">
+          <NavigationMenu className="-mt-3 sm:mt-0 p-0 mx-4">
+            <NavigationMenuItem className="p-0 mt-0">
+              <NavigationMenuTrigger className="text-[16px] p-0 mt-0">
                 policies
               </NavigationMenuTrigger>
               <NavigationMenuContent className="">
