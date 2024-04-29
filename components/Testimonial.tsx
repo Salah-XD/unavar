@@ -29,7 +29,7 @@ type Props = {};
 
 const Testimonial = (props: Props) => {
   return (
-    <div className="mt-[280px] md:m-[80px]">
+    <div className="mt-[280px] md:mt-[190px]">
       <div className="bg-primary-500 text-center py-6 pt-20">
         <h1 className="text-center text-4xl font-semibold">Testimonials </h1>
         <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">

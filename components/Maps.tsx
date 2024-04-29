@@ -8,15 +8,16 @@ const Maps = (props: Props) => {
   return (
     <div className="relative">
       <div className=" absolute  md:gap-[2rem]  bg-white p-[40px] top-[16rem] rounded-lg md:left-[10%] md:right-[10%] z-20 shadow-lg  mx-4  md:mx-0">
-        <h1 className="text-2xl font-bold text-center mb-6">
+        <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap md:justify-center justify-start m-auto ">
+          <Stat img="/images/icon_1.png" num={800} desc={`Clients`} />
+          <Stat img="/images/icon_1.png" num={130} desc={"Projects"} />
+          <Stat img="/images/icon_1.png" num={183} desc={"certificates"} />
+        </div>
+        <h1 className="text-2xl font-bold text-center my-6">
           Certificate Issued
         </h1>
         <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap md:justify-between justify-start m-auto ">
-          <Stat
-            img="/images/icon_1.png"
-            num={(1516)}
-            desc={`Hygiene \nRating`}
-          />
+          <Stat img="/images/icon_1.png" num={1516} desc={`Hygiene \nRating`} />
           <Stat
             img="/images/icon_1.png"
             num={130}
