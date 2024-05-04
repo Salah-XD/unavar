@@ -36,7 +36,7 @@ const page = (props: Props) => {
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
         <HygieneCard
           head="Hygiene Rating"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/hygiene.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/hygiene-cer.png"
@@ -45,7 +45,7 @@ const page = (props: Props) => {
 
         <ServiceCard
           head="Eat Right Station"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/eatright.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-station-cer.png"
@@ -53,7 +53,7 @@ const page = (props: Props) => {
         />
         <ServiceCard
           head="Eat Right Fruit and Vegetable Market"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/eatright-veg.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-vegmarket.png"
@@ -61,7 +61,7 @@ const page = (props: Props) => {
         />
         <ServiceCard
           head="Eat Right Hub"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/eatright-hub.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-hub-cer.png"
@@ -69,7 +69,7 @@ const page = (props: Props) => {
         />
         <ServiceCard
           head="Eat Right Campus"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/eatright-campus.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-campus-cer.png"
@@ -77,7 +77,7 @@ const page = (props: Props) => {
         />
         <ServiceCard
           head="Eat Right Worship Place"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/eatright-worship.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-worship-cer.png"

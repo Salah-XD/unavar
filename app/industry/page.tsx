@@ -22,7 +22,7 @@ const page = (props: Props) => {
       <div className="flex justify-center gap-10 my-10">
         <ServiceCard
           head="Eat Right Hub"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/eatright-hub.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-hub-cer.png"
@@ -30,7 +30,7 @@ const page = (props: Props) => {
         />
         <ServiceCard
           head="Eat Right Campus"
-          desc="We ensure that your food products meet safety and qquality"
+          desc="We ensure that your food products meet safety and quality"
           image="/images/eatright-campus.png"
           btn="Sample Cerificate"
           pimg="/images/certificates/eatright-campus-cer.png"
