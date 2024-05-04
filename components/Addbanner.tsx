@@ -36,7 +36,7 @@ const Addbanner = (props: Props) => {
           <a className="text-black font-extrabold text-[20px]">Email</a>
         </div>
         <div className="text-center text-wrap">
-          <p className="text-black">contact@unavar.com</p>
+          <p className="text-black">admin@unavar.com</p>
         </div>
       </div>
     </div>

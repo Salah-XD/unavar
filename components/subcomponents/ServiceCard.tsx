@@ -32,23 +32,29 @@ const ServiceCard = ({
         height={400}
         alt="icon"
       />
-      <p className="text-2xl font-semibold">{head}</p>
-      <Popover>
-        <PopoverTrigger>
-          <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
-            {btn}
-          </p>
-        </PopoverTrigger>
-        <PopoverContent align="start" sideOffset={10} className="p-5 bg-white">
-          <p className="text-lg text-[#0f7a87]">{desc}</p>
-          <Image src={pimg} width={1000} height={1000} alt="img" />
-          {/* <Link href={path}>
+      <p className="text-2xl font-semibold text-center">{head}</p>
+      <div className="flex justify-center">
+        <Popover>
+          <PopoverTrigger>
+            <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
+              {btn}
+            </p>
+          </PopoverTrigger>
+          <PopoverContent
+            align="start"
+            sideOffset={10}
+            className="p-5 bg-white"
+          >
+            <p className="text-lg text-[#0f7a87]">{desc}</p>
+            <Image src={pimg} width={1000} height={1000} alt="img" />
+            {/* <Link href={path}>
             <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg w-fit">
               View More
             </p>    
           </Link> */}
-        </PopoverContent>
-      </Popover>
+          </PopoverContent>
+        </Popover>
+      </div>
     </div>
   );
 };

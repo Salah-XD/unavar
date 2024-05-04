@@ -8,12 +8,12 @@ const Maps = (props: Props) => {
   return (
     <div className="relative">
       <div className=" absolute  md:gap-[2rem]  bg-white p-[40px] top-[16rem] rounded-lg md:left-[10%] md:right-[10%] z-20 shadow-lg  mx-4  md:mx-0">
-        <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap md:justify-center justify-start m-auto ">
+        {/* <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap md:justify-center justify-start m-auto ">
           <Stat img="/images/icon_1.png" num={800} desc={`Clients`} />
           <Stat img="/images/icon_1.png" num={130} desc={"Projects"} />
           <Stat img="/images/icon_1.png" num={183} desc={"certificates"} />
-        </div>
-        <h1 className="text-2xl font-bold text-center my-6">
+        </div> */}
+        <h1 className="text-2xl font-bold text-center mb-6">
           Certificate Issued
         </h1>
         <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap md:justify-between justify-start m-auto ">
@@ -40,17 +40,17 @@ const Maps = (props: Props) => {
           </a>
           <div className="flex text-white flex-col gap-5 p-[30px]">
             <ul className="flex flex-wrap md:gap-x-[32px] md:gap-y-[20px] gap-x-5 gap-y-5 justify-center text-xs sm:text-sm md:text-xs md:flex  lg:text-sm xl:text-xl list-disc">
-              <li className="text-white font-regular ">NEWDELHI</li>
+              <li className="text-white font-regular ">TAMILNADU</li>
               <li className="text-white font-regular">MUMBAI</li>
               <li className="text-white font-regular">BANGLORE</li>
               <li className="text-white font-regular">CHENNAI</li>
               <li className="text-white font-regular">HYDERABAD</li>
+              <li className="text-white font-regular">AHMEDABAD</li>
             </ul>
             <ul className="flex gap-8 justify-center text-xs sm:text-sm md:text-xs md:flex md:gap-10 lg:text-sm xl:text-xl list-disc">
-              <li className="text-white font-regular">AHMEDABAD</li>
-              <li className="text-white font-regular">COCHIN</li>
+              {/* <li className="text-white font-regular">COCHIN</li>
               <li className="text-white font-regular">KOLKATA</li>
-              <li className="text-white font-regular">INDORE</li>
+              <li className="text-white font-regular">INDORE</li> */}
             </ul>
           </div>
         </div>

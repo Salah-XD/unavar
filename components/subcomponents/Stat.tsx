@@ -27,7 +27,7 @@ const Stat = ({ img, num, desc }: StatProps) => {
           }
           return prevCount + 1;
         });
-      }, 30);
+      }, 2);
 
       return () => clearInterval(timer);
     }
@@ -45,8 +45,11 @@ const Stat = ({ img, num, desc }: StatProps) => {
         />
       </div>
       <div className="flex flex-col text-left p-1">
-        <a className="text-black font-bold text-lg">{countNum}<span>+</span></a>
-        
+        <a className="text-black font-bold text-lg">
+          {countNum}
+          <span>+</span>
+        </a>
+
         <p className="text-black font-normal whitespace-pre text-xs">{desc}</p>
       </div>
     </div>

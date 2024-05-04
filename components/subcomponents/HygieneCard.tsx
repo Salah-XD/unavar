@@ -33,24 +33,35 @@ const HygieneCard = ({
           height={400}
           alt="icon"
         />
-        <p className="text-2xl font-semibold">{head}</p>
+        <p className="text-2xl font-semibold text-center">{head}</p>
       </Link>
-      <Popover>
-        <PopoverTrigger>
-          <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
-            {btn}
-          </p>
-        </PopoverTrigger>
-        <PopoverContent align="start" sideOffset={10} className="p-5 bg-white">
-          <p className="text-lg text-[#0f7a87]">{desc}</p>
-          <Image src={pimg} width={1000} height={1000} alt="img" />
-          {/* <Link href={path}>
+      <div className="flex justify-center flex-wrap gap-3">
+        <Popover>
+          <PopoverTrigger>
+            <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
+              {btn}
+            </p>
+          </PopoverTrigger>
+          <PopoverContent
+            align="start"
+            sideOffset={10}
+            className="p-5 bg-white"
+          >
+            <p className="text-lg text-[#0f7a87]">{desc}</p>
+            <Image src={pimg} width={1000} height={1000} alt="img" />
+            {/* <Link href={path}>
             <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg w-fit">
               View More
             </p>    
           </Link> */}
-        </PopoverContent>
-      </Popover>
+          </PopoverContent>
+        </Popover>
+        <Link href="/services/hygiene-rating">
+          <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
+            View More
+          </p>
+        </Link>
+      </div>
     </div>
   );
 };

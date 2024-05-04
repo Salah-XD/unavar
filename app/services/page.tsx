@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Banner from "@/components/subcomponents/banner";
 import ServiceCard from "@/components/subcomponents/ServiceCard";
 import AuditCard from "@/components/subcomponents/AuditCard";
+import HygieneCard from "@/components/subcomponents/HygieneCard";
 
 type Props = {};
 
@@ -33,7 +34,7 @@ const page = (props: Props) => {
         Certifications we Offer{" "}
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
-        <ServiceCard
+        <HygieneCard
           head="Hygiene Rating"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/hygiene.png"
@@ -41,6 +42,7 @@ const page = (props: Props) => {
           pimg="/images/certificates/hygiene-cer.png"
           path="/services"
         />
+
         <ServiceCard
           head="Eat Right Station"
           desc="We ensure that your food products meet safety and qquality"

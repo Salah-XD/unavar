@@ -43,10 +43,9 @@ const page = (props: Props) => {
               contributing to public health protection.
             </li>
             <li>
-              <b>Facilitating Market Differentiation:</b>High hygiene ratings
-              offer businesses a competitive edge, attracting consumers who
-              prioritize quality and safety, thereby boosting loyalty and
-              profitability.
+              <b>Facilitating Market Differentiation:</b>hygiene ratings offer
+              businesses a competitive edge, attracting consumers who prioritize
+              quality and safety, thereby boosting loyalty and profitability.
             </li>
             <li>
               <b>Fostering Continuous Improvement:</b>Through regular
@@ -87,7 +86,11 @@ const page = (props: Props) => {
               due to the perishable nature of bakery products.
             </li>
             <li>
-              <b>Meat Retail Stores: </b>This category includes businesses retailing meat, poultry, and seafood products such as butcher shops, meat markets, fishmongers, and poultry stores, where ensuring product hygiene and safety is paramount in preventing foodborne illnesses and building consumer trust.
+              <b>Meat Retail Stores: </b>This category includes businesses
+              retailing meat, poultry, and seafood products such as butcher
+              shops, meat markets, and poultry stores, where ensuring product
+              hygiene and safety is paramount in preventing foodborne illnesses
+              and building consumer trust.
             </li>
           </ul>
         </div>

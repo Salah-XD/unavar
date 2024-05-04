@@ -6,13 +6,13 @@ import HygieneCard from "./subcomponents/HygieneCard";
 const Service = () => {
   return (
     <div className="my-10 px-10">
-      <h1 className="text-center text-4xl font-semibold">WHAT DO WE OFFER?</h1>
-      <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">
+      {/* <h1 className="text-center text-4xl font-semibold">WHAT DO WE OFFER?</h1> */}
+      {/* <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">
         Delivering comprehensive solutions for food safety,
         <br /> certification, and quality assurance
-      </p>
+      </p> */}
       <h1 className="text-center text-4xl font-semibold mt-4">
-        Services we Offer{" "}
+        Inspection Services we Offer{" "}
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
         <AuditCard
@@ -22,19 +22,18 @@ const Service = () => {
         />
       </div>
       <h1 className="text-center text-4xl font-semibold">
-        Certifications we Offer{" "}
+        Certification Services we Offer{" "}
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
-        
-          <HygieneCard
-            head="Hygiene Rating"
-            desc="We ensure that your food products meet safety and qquality"
-            image="/images/hygiene.png"
-            btn="Sample Cerificate"
-            pimg="/images/certificates/hygiene-cer.png"
-            path="/services"
-          />
-        
+        <HygieneCard
+          head="Hygiene Rating"
+          desc="We ensure that your food products meet safety and qquality"
+          image="/images/hygiene.png"
+          btn="Sample Cerificate"
+          pimg="/images/certificates/hygiene-cer.png"
+          path="/services"
+        />
+
         <ServiceCard
           head="Eat Right Station"
           desc="We ensure that your food products meet safety and qquality"
@@ -44,7 +43,7 @@ const Service = () => {
           path="/services"
         />
         <ServiceCard
-          head="Eat Right Fruit and Vegetable Market"
+          head="Eat Right Fruits and Vegetables Market"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-veg.png"
           btn="Sample Cerificate"
@@ -52,7 +51,7 @@ const Service = () => {
           path="/services"
         />
         <ServiceCard
-          head="Eat Right Hub"
+          head="Eat Right street food hub"
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-hub.png"
           btn="Sample Cerificate"
@@ -68,7 +67,8 @@ const Service = () => {
           path="/services"
         />
         <ServiceCard
-          head="Eat Right Worship Place"
+          head="Eat Right Place of Worship
+          "
           desc="We ensure that your food products meet safety and qquality"
           image="/images/eatright-worship.png"
           btn="Sample Cerificate"

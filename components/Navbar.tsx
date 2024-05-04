@@ -27,17 +27,10 @@ const Navbar = () => {
       <span className="cursor-pointer md:w-[500px] z-[40] bg-white w-full h-full flex items-center gap-4 ">
         <Link href="/">
           <div className="logo text-3xl text-[#EFBA00] font-['Nunito',sans-serif]">
-            <Image
-              width={300}
-              height={300}
-              alt="image"
-              src="/images/header.png"
-            />
+            <Image width={50} height={50} alt="image" src="/images/logo.png" />
           </div>
         </Link>
-        {/* <p className="font-bold text-xl">
-          UNAVAR
-        </p> */}
+        <p className="font-bold text-xl">UNAVAR</p>
       </span>
 
       <div

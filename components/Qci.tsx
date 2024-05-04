@@ -23,7 +23,7 @@ const Qci = () => {
             height={100}
           />
           <h3 className="text-2xl font-[500]">
-            QCI Credited <br /> Oraganisation
+            QCI Accredited <br /> Oraganisation
           </h3>
         </div>
       </div>
