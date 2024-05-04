@@ -25,7 +25,7 @@ const Stat = ({ img, num, desc }: StatProps) => {
             clearInterval(timer);
             return num;
           }
-          return prevCount + 1;
+          return prevCount + 2;
         });
       }, 2);
 
