@@ -37,6 +37,7 @@ const Stat = ({ img, num, desc }: StatProps) => {
     <div className="flex gap-3" ref={ref}>
       <div className="relative w-[50px] h-[60px]">
         <Image
+          className="filter invert-[59%] sepia-[43%] saturate-[986%] hue-rotate-[149deg] brightness-[0] contrast-[95%]"
           src={img}
           alt="img"
           fill

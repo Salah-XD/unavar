@@ -17,17 +17,33 @@ const Maps = (props: Props) => {
           Certificate Issued
         </h1>
         <div className="flex gap-4 lg:flex-wrap md:flex-wrap flex-wrap md:justify-between justify-start m-auto ">
-          <Stat img="/images/icon_1.png" num={1516} desc={`Hygiene \nRating`} />
           <Stat
-            img="/images/icon_1.png"
+            img="/images/stats/Hygiene_rating_1.svg"
+            num={1516}
+            desc={`Hygiene \nRating`}
+          />
+          <Stat
+            img="/images/stats/Worship.svg"
             num={130}
             desc={"Eat Right\nWorship"}
           />
-          <Stat img="/images/icon_1.png" num={183} desc={"Eat Right\nCampus"} />
-          <Stat img="/images/icon_1.png" num={36} desc={"Eat Right\nMarket"} />
-          <Stat img="/images/icon_1.png" num={12} desc={"Eat Right\nStation"} />
           <Stat
-            img="/images/icon_1.png"
+            img="/images/stats/Campus.svg"
+            num={183}
+            desc={"Eat Right\nCampus"}
+          />
+          <Stat
+            img="/images/stats/veg_market.svg"
+            num={36}
+            desc={"Eat Right\nMarket"}
+          />
+          <Stat
+            img="/images/stats/Station.svg"
+            num={12}
+            desc={"Eat Right\nStation"}
+          />
+          <Stat
+            img="/images/stats/Street_food.svg"
             num={25}
             desc={"Eat Right\nFood Hub"}
           />
