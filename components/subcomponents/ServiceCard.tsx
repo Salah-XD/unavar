@@ -24,7 +24,7 @@ const ServiceCard = ({
   path,
 }: ServiceCardProps) => {
   return (
-    <div className="group relative w-[350px] h-[410px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
+    <div className="group relative w-[350px] h-[430px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
       <Image
         className="relative my-5 bg-[#0f7a87] rounded-xl pt-1"
         src={image}

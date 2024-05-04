@@ -24,7 +24,7 @@ const HygieneCard = ({
   path,
 }: HygieneCardProps) => {
   return (
-    <div className="group relative w-[350px] h-[410px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
+    <div className="group relative w-[350px] h-[430px] p-6 shadow-[0_0_30px_#11111149] rounded-3xl">
       <Link href="/services/hygiene-rating" className="cursor">
         <Image
           className="relative my-5 bg-[#0f7a87] rounded-xl pt-1"
@@ -35,7 +35,7 @@ const HygieneCard = ({
         />
         <p className="text-2xl font-semibold text-center">{head}</p>
       </Link>
-      <div className="flex justify-center flex-wrap gap-3">
+      <div className="flex justify-center flex-wrap gap-1">
         <Popover>
           <PopoverTrigger>
             <p className="text-lg no-underline text-white hover:no-underline bg-[#0f7a87] p-2 px-3 mt-3 rounded-lg">
