@@ -35,10 +35,10 @@ const Navbar = () => {
       <span className="cursor-pointer md:w-[500px] z-[40] bg-white w-full h-full flex items-center gap-4 ">
         <Link href="/">
           <div className="logo text-3xl text-[#EFBA00] ">
-            <Image width={50} height={50} alt="image" src="/images/logo.png" />
+            <Image width={70} height={70} alt="image" src="/images/logo2.png" />
           </div>
         </Link>
-        <p className={(RobotoSlab.className, "font-bold text-xl")}>UNAVAR</p>
+        {/* <p className={(RobotoSlab.className, "font-bold text-xl")}>UNAVAR</p> */}
       </span>
 
       <div

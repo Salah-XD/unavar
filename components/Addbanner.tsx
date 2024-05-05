@@ -5,7 +5,7 @@ type Props = {};
 
 const Addbanner = (props: Props) => {
   return (
-    <div className="flex flex-wrap gap-7 justify-around p-[30px] bg-white">
+    <div className="flex flex-wrap gap-7 justify-around p-[30px] bg-[#0cc0ee]">
       <div className="flex flex-col">
         <div className="flex justify-center p-[10px] gap-5">
           <Image alt="img" src="/images/loc.png" width={30} height={30} />

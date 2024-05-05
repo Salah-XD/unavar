@@ -28,7 +28,7 @@ const Maps = (props: Props) => {
             desc={"Eat Right\nWorship"}
           />
           <Stat
-            img="/images/stats/Campus.svg"
+            img="/images/stats/campus.svg"
             num={183}
             desc={"Eat Right\nCampus"}
           />
@@ -57,11 +57,11 @@ const Maps = (props: Props) => {
           <div className="flex text-white flex-col gap-5 p-[30px]">
             <ul className="flex flex-wrap md:gap-x-[32px] md:gap-y-[20px] gap-x-5 gap-y-5 justify-center text-xs sm:text-sm md:text-xs md:flex  lg:text-sm xl:text-xl list-disc">
               <li className="text-white font-regular ">TAMILNADU</li>
-              <li className="text-white font-regular">MUMBAI</li>
-              <li className="text-white font-regular">BANGLORE</li>
-              <li className="text-white font-regular">CHENNAI</li>
-              <li className="text-white font-regular">HYDERABAD</li>
-              <li className="text-white font-regular">AHMEDABAD</li>
+              <li className="text-white font-regular">MAHARASHTRA</li>
+              <li className="text-white font-regular">GOA</li>
+              <li className="text-white font-regular">KARNATAKA</li>
+              <li className="text-white font-regular">KERALA</li>
+              <li className="text-white font-regular">GUJARAT</li>
             </ul>
             <ul className="flex gap-8 justify-center text-xs sm:text-sm md:text-xs md:flex md:gap-10 lg:text-sm xl:text-xl list-disc">
               {/* <li className="text-white font-regular">COCHIN</li>

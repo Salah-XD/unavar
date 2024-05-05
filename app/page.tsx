@@ -37,9 +37,9 @@ export default function Home() {
       <FadeUpOnScroll>
         <Clients />
       </FadeUpOnScroll>
-      <FadeUpOnScroll>
+      {/* <FadeUpOnScroll>
         <Banner />
-      </FadeUpOnScroll>
+      </FadeUpOnScroll> */}
       <FadeUpOnScroll>
         <Addbanner />
       </FadeUpOnScroll>
