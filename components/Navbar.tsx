@@ -3,8 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-// import { RobotoSlab } from "@/app/layout";
-import { Roboto_Slab } from "next/font/google";
 
 import {
   NavigationMenu,
@@ -19,19 +17,13 @@ import {
 
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 
-const RobotoSlab = Roboto_Slab({
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
-
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const onClickHandler = () => {
     setNavbar(!navbar);
   };
   return (
-    <nav className="w-full px-5 gap-3 h-20 shadow relative z-[30] flex items-center justify-between bg-white   md:flex md:justify-between md:items-center">
+    <nav className=" font-roboto-slab w-full px-5 gap-3 h-20 shadow relative z-[30] flex items-center justify-between bg-white   md:flex md:justify-between md:items-center">
       <span className="cursor-pointer md:w-[500px] z-[40] bg-white w-full h-full flex items-center gap-4 ">
         <Link href="/">
           <div className="logo text-3xl text-[#EFBA00] ">

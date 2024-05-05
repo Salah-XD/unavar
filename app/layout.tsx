@@ -2,8 +2,9 @@
 
 // Import necessary dependencies
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google"; // Import the Poppins font
-import { Roboto_Slab } from "next/font/google"; // Import the Roboto_Slab font (Fix typo here)
+import { Poppins } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css"; // Import global styles
 
 // Configure the Poppins font
@@ -13,7 +14,12 @@ const poppins = Poppins({
   variable: "--font-poppins",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+  style: ["italic"],
+  variable: "--font-montserrat",
+});
 const RobotoSlab = Roboto_Slab({
   subsets: ["latin"],
   display: "swap",
@@ -35,7 +41,11 @@ export default function RootLayout({
   return (
     // Wrap the content in HTML tags
     <html lang="en">
-      <body className={`${poppins.className}`}>{children}</body>
+      <body
+        className={`font-poppins ${poppins.variable} ${RobotoSlab.variable} ${montserrat.variable} `}
+      >
+        {children}
+      </body>
     </html>
   );
 }

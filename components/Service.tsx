@@ -5,13 +5,13 @@ import HygieneCard from "./subcomponents/HygieneCard";
 
 const Service = () => {
   return (
-    <div className="my-10 px-10">
+    <div className="my-10 mt-14p px-10">
       {/* <h1 className="text-center text-4xl font-semibold">WHAT DO WE OFFER?</h1> */}
       {/* <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">
         Delivering comprehensive solutions for food safety,
         <br /> certification, and quality assurance
       </p> */}
-      <h1 className="text-center text-4xl font-semibold mt-4">
+      <h1 className="text-center text-5xl font-semibold mt-4 font-roboto-slab">
         Inspection Services we Offer{" "}
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
@@ -21,7 +21,7 @@ const Service = () => {
           btn="view more"
         />
       </div>
-      <h1 className="text-center text-4xl font-semibold">
+      <h1 className="text-center text-5xl font-semibold font-roboto-slab">
         Certification Services we Offer{" "}
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
@@ -51,7 +51,7 @@ const Service = () => {
           path="/services"
         />
         <ServiceCard
-          head="Eat Right street food hub"
+          head="Eat Right Street Food Hub"
           desc="We ensure that your food products meet safety and quality"
           image="/images/eatright-hub.png"
           btn="Sample Cerificate"

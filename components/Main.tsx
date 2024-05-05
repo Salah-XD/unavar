@@ -6,10 +6,10 @@ type Props = {};
 const Main = (props: Props) => {
   return (
     <div className="main absolute z-10 top-[40%] left-[5%] md:left-[15%]">
-      <h1 className="text-4xl md:text-7xl font-extrabold font-roboto-slab  leading-[1.5] mb-5 text-white">
+      <h1 className="text-4xl md:text-7xl font-extrabold font-mont  leading-[1.5] mb-5 text-white">
         Unavar Food Inspection <br /> and Certification
       </h1>
-      <p className="text-l md:text-2xl font-semibold mb-6 leading-[1.15] text-white">
+      <p className="text-l md:text-3xl font-semibold mb-6 leading-[1.15] font-mont  text-white">
         Private Limited
       </p>
 

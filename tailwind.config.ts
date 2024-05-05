@@ -12,8 +12,9 @@ const config = {
   prefix: "",
   theme: {
     fontFamily: {
-      'roboto-slab': "var(--font-roboto-slab)"
-      // Define Roboto Slab font family
+      "poppins": "var(--font-poppins)",
+      "roboto-slab": "var(--font-roboto-slab)",
+      "mont": "var(--font-montserrat)"
     },
     container: {
       center: true,

@@ -31,7 +31,9 @@ const Testimonial = (props: Props) => {
   return (
     <div className="mt-[280px] md:mt-[190px]">
       <div className="bg-primary-500 text-center py-6 pt-20">
-        <h1 className="text-center text-4xl font-semibold">Testimonials </h1>
+        <h1 className="text-center text-5xl font-semibold font-roboto-slab">
+          Testimonials{" "}
+        </h1>
         {/* <p className="text-[#0f7a87] text-2xl text-center my-6 mb-10 font-medium">
           What our clients say about us
         </p> */}
