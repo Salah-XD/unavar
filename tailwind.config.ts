@@ -13,7 +13,7 @@ const config = {
   theme: {
     fontFamily: {
       'roboto-slab': "var(--font-roboto-slab)"
-      ''// Define Roboto Slab font family
+      // Define Roboto Slab font family
     },
     container: {
       center: true,
