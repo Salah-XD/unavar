@@ -6,7 +6,7 @@ const Qci = () => {
     <div className="qci my-10 p-5 px-10 flex flex-wrap gap-10 justify-around">
       <div className="left w-screen md:w-[40%]">
         <h2 className="text-5xl font-semibold leading-[1.5] text-[#0f7a87] font-roboto-slab">
-          Ensuring the highest <br /> standards of food safety and quality.
+          Ensuring the Highest <br /> Standards of Food safety and Quality.
         </h2>
         <p className=" my-5 text-xl leading-[1.7]">
           Unavar, is a distinguished certification body dedicated to aiding

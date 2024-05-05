@@ -47,23 +47,10 @@ const Testimonial = (props: Props) => {
           ssr={true}
         >
           <div>
-            <TestimonialCard />
+            <TestimonialCard 
+            img=""/>
           </div>
-          <div>
-            <TestimonialCard />
-          </div>
-          <div>
-            <TestimonialCard />
-          </div>
-          <div>
-            <TestimonialCard />
-          </div>
-          <div>
-            <TestimonialCard />
-          </div>
-          <div>
-            <TestimonialCard />
-          </div>
+          
         </Carousel>
       </center>
     </div>
