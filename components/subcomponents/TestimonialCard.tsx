@@ -7,10 +7,17 @@ interface testonialCardProps {
   name: string;
   role: string;
   desc: string;
+  place: string;
 }
-const TestimonialCard = ({ img, name, role, desc }: testonialCardProps) => {
+const TestimonialCard = ({
+  img,
+  name,
+  role,
+  desc,
+  place,
+}: testonialCardProps) => {
   return (
-    <div className="bg-white p-6  shadow-[0_0_40px_#11111149] text-center w-[350px] h-[440px]">
+    <div className="bg-white p-6  shadow-[0_0_40px_#11111149] text-center w-[380px] h-fit">
       <div className="relative mx-auto w-[200px] h-[200px] rounded-full mb-6">
         <Image
           src={img}
@@ -26,6 +33,7 @@ const TestimonialCard = ({ img, name, role, desc }: testonialCardProps) => {
       <div className="relative -top-4">
         <h4 className="text-lg font-semibold mb-1 text-grey-1">{name}</h4>
         <p className="text-primary-500 uppercase text-sm mb-4">{role}</p>
+        <p className="text-primary-500  text-sm mb-3 text-slate-700">{place}</p>
         <p className="text-grey-5">{desc}</p>
       </div>
     </div>

@@ -31,7 +31,7 @@ const Qci = () => {
         <Image
           alt="img"
           className=" shadow-[23px_-23px_#0f7a87]"
-          src="/images/newpic.webp"
+          src="/images/newpic2.webp"
           width={400}
           height={400}
         />
