@@ -18,7 +18,7 @@ const Contact = (props: Props) => {
         </div>
       </div>
       <Addbanner />
-      <Banner />
+
       <Footer />
     </div>
   );

@@ -37,7 +37,7 @@ const page = (props: Props) => {
           path="/services"
         />
       </div>
-      <Banner />
+
       <Footer />
     </div>
   );

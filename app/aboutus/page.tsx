@@ -143,7 +143,6 @@ const About = (props: Props) => {
       </FadeUpOnScroll>
       <footer>
         <div>
-          <Banner />
           <Addbanner />
           <Footer />
         </div>

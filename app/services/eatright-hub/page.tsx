@@ -129,7 +129,6 @@ const page = (props: Props) => {
       </div>
       <footer>
         <div>
-          <Banner />
           <Footer />
         </div>
       </footer>
