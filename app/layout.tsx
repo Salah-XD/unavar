@@ -35,9 +35,7 @@ export default function RootLayout({
   return (
     // Wrap the content in HTML tags
     <html lang="en">
-      <body className={`${poppins.className} ${RobotoSlab.className}`}>
-        {children}
-      </body>
+      <body className={`${poppins.className}`}>{children}</body>
     </html>
   );
 }
