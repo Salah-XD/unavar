@@ -69,10 +69,10 @@ const page = (props: Props) => {
           </p>
         </div>
         <div className="flex flex-col p-10">
-          <p className="text-black font-bold text-xl">
+          <p className="text-black font-bold text-3xl">
             What is TPA and how it is useful?
           </p>
-          <p className="text-black font-md text-wrap p-3">
+          <p className="text-black font-md text-wrap p-3 text-xl">
             TPA, or Third Party Audit, is an evaluation process carried out by
             an independent organization or body that is officially recognized
             for its competence and authority in assessing compliance with
