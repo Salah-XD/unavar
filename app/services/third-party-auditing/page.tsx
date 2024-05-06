@@ -19,38 +19,53 @@ const page = (props: Props) => {
       {/* ------- */}
       <div className="flex flex-col justify-center align-middle p-2 md:p-20">
         <div className="flex flex-col p-10">
-          <p className="text-black font-bold text-xl">
+          <p className="text-black font-bold text-3xl">
             Who all are eligible for TPA
           </p>
-          <p className="text-black font-sm text-wrap text-md p-3">
-            The Food Business Operators (FBOs) who hold a central license and
-            operate a manufacturing unit are eligible to undergo Third Party
-            Audit (TPA). In the context of food safety regulations, TPA refers
-            to an audit conducted by an external, independent organization or
-            body that is recognized by relevant authorities. This audit assesses
-            the compliance of the food business with applicable standards and
-            regulations, ensuring that food safety and quality requirements are
-            met.
+          <p className="text-black font-sm text-wrap text-md p-3 text-xl">
+            The Food Business Operators (FBOs) who hold a central license are
+            eligible to undergo Third Party Audit (TPA). In the context of food
+            safety regulations, TPA refers to an audit conducted by an external,
+            independent organization or body that is recognized by relevant
+            authorities. This audit assesses the compliance of the food business
+            with applicable standards and regulations, ensuring that food safety
+            and quality requirements are met.
           </p>
         </div>
         <div className="flex flex-col p-10">
-          <p className="text-black font-bold text-xl">
+          <p className="text-black font-bold text-3xl">
+            The following are eligible for Third-Party Audits (TPA):
+          </p>
+          <ul className="list-disc my-8 ml-4 text-xl">
+            <li>General Manufacturers</li>
+            <li>Central catering services</li>
+            <li>Holders of central and state licenses for prepared foods</li>
+            <li>Manufacturers of high-risk products:</li>
+            <div className="ml-5">
+              <li className="indent">Milk and dairy products</li>
+              <li className="indent">Meat and poultry products</li>
+              <li className="indent">Fish and seafood products</li>
+              <li className="indent">Ghee and oil</li>
+            </div>
+          </ul>
+        </div>
+
+        <div className="flex flex-col p-10">
+          <p className="text-black font-bold text-3xl">
             On What Basis Man - Days were Calculated?
           </p>
-          <p className="text-black font-md text-wrap p-3">
-            Man-days refer to the number of days worked by an individual. In the
-            context of food handling, man-days are calculated based on the
-            number of food handlers employed by a food business. The provided
-            breakdown suggests different man- day allocations based on the
-            number of food handlers:
-            <ul className="list-disc my-8 ml-4">
-              <li>0 - 50 food handlers: 0.5 man-day</li>
-              <li>50 - 100 food handlers: 1 man-day</li>
-              <li>More than 100 food handlers: 1.5 man-days</li>
-            </ul>
-            This calculation is likely used for determining the resources
-            required for food safety management, including training,
-            supervision, and monitoring of food handling practices.
+          <p className="text-black font-md text-wrap p-3 text-xl">
+            The provided breakdown suggests different man-day allocations based
+            on the number of food handlers:
+          </p>
+          <p className="text-black font-md text-wrap p-3 text-2xl">
+            0 - 50 food handlers: 0.5 man-day
+          </p>
+          <p className="text-black font-md text-wrap p-3 text-2xl">
+            50 - 100 food handlers: 1 man-day
+          </p>
+          <p className="text-black font-md text-wrap p-3 text-2xl">
+            More than 100 food handlers: 1.5 man-days
           </p>
         </div>
         <div className="flex flex-col p-10">
