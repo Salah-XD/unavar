@@ -62,7 +62,7 @@ const About = (props: Props) => {
           <Aboutcard
             img="/images/About/unknown.jpg"
             name="Vivek"
-            desc="experienced and known food safety expert in the
+            desc="Experienced and known food safety expert in the
           field of catering and manufacturing with over 11
           years of industrial experience. post graduate in
           food safety quality management from srm
@@ -73,7 +73,7 @@ const About = (props: Props) => {
           rating audits completed and lead auditor for iso
           22000: 2018
           "
-            role={"HEAD - Operations\nvivek@unavar.com"}
+            role={"EXECUTIVE DIRECTOR \nvivek@unavar.com"}
           />
           <Aboutcard
             img="/images/About/abt2.png"

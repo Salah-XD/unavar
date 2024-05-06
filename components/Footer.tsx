@@ -6,7 +6,7 @@ import Banner from "./subcomponents/banner";
 const Footer = () => {
   return (
     <div className="">
-      <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left h-[30vh]">
+      <div className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left h-[30vh]">
         <div className="flex flex-wrap justify-around gap-10  bg-white p-[40px] mb-10 pb-10">
           <div className="flex flex-col gap-4">
             <div className="text-black font-bold text-lg">Main Navigations</div>
@@ -73,7 +73,7 @@ const Footer = () => {
                 href="https://eatrightindia.gov.in/eatrightplaceofworship/index.php"
                 className="text-black font-regular hover:cursor-pointer"
               >
-                bhog
+                BHOG
               </a>
               <a
                 href="https://eatrightindia.gov.in/fruitsandvegetablesmarket/index.php"
@@ -113,13 +113,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </footer>
-      <div className="text-center py-5 mt-3 bg-gray-100 ">
-        &copy; 2024 All Rights Reserved by Unavar Food Inspection and
-        Certification Pvt Ltd | Made by{" "}
-        <a href="https://www.linkedin.com/company/steamtroops/">
-          STEAM TROOPS Innovation Labs®
-        </a>
+        <div className="text-center py-5 mt-3 bg-gray-100 ">
+          &copy; 2024 All Rights Reserved by Unavar Food Inspection and
+          Certification Pvt Ltd | Made by{" "}
+          <a href="https://www.linkedin.com/company/steamtroops/">
+            STEAM TROOPS Innovation Labs®
+          </a>
+        </div>
       </div>
     </div>
   );
