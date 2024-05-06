@@ -78,13 +78,7 @@ const About = (props: Props) => {
           <Aboutcard
             img="/images/About/abt2.png"
             name="Kashthuri Selvam"
-            desc="Food process engineering graduate from tnau with 5 years of hands-
-          on experience in oil processing, cereals processing, spices processing
-          units. Known expert in label guidance and fssai licensing. Hygiene
-          rating certified auditor with over more than 300 hygiene rating audits
-          completed for different sectors like catering, bakery and meat retail.
-          Was part of getting 1 bhog for the state of tamil nadu. Certified iso
-          22000 lead auditor."
+            desc="Food Process Engineering graduate from TNAU with 5 years of hands- on experience in oil processing, cereals processing, spices processing units. Known expert in label guidance and FSSAI licensing. Hygiene rating certified auditor with more than 300 audits completed for different sectors like catering, bakery and meat retail. Was part of getting the first BHOG for the state of tamil nadu. Certified ISO 22000 lead auditor"
             role={"HEAD - Operations\nkasthuri@unavar.com"}
           />
         </div>

@@ -31,7 +31,7 @@ const Addbanner = (props: Props) => {
         </div>
         <div className="text-center text-wrap">
           <p className="text-white">+91 8838870687</p>
-          <p className="text-white">Deva - +91 95781 48099</p>
+          <p className="text-white">Deva - +91 95781 48099</p>boa
           <p className="text-white">Preethi - +91 95783 44358</p>
         </div>
       </div>
