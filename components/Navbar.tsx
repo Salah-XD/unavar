@@ -138,6 +138,38 @@ const Navbar = () => {
             href="/contact"
             className=" flex items-center gap-1 text-l text-black"
           >
+            <p>Accreditation</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/contact"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>Major Certification</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/contact"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>Gallery</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/contact"
+            className=" flex items-center gap-1 text-l text-black"
+          >
+            <p>Complaints</p>
+          </Link>
+        </li>
+        <li className="mx-4 mb-6 md:my-0">
+          <Link
+            href="/contact"
+            className=" flex items-center gap-1 text-l text-black"
+          >
             <p>Contact</p>
           </Link>
         </li>
