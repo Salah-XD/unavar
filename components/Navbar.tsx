@@ -135,7 +135,7 @@ const Navbar = () => {
         </li> */}
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/contact"
+            href="/accreditation"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Accreditation</p>
@@ -143,7 +143,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/contact"
+            href="/major-certifications"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Major Certification</p>
@@ -151,7 +151,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/contact"
+            href="/gallery"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Gallery</p>
@@ -159,7 +159,7 @@ const Navbar = () => {
         </li>
         <li className="mx-4 mb-6 md:my-0">
           <Link
-            href="/contact"
+            href="/complaints"
             className=" flex items-center gap-1 text-l text-black"
           >
             <p>Complaints</p>
