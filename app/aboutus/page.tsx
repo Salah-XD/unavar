@@ -50,9 +50,9 @@ const About = (props: Props) => {
         </div>
       </FadeUpOnScroll>
       <div className=" justiy-center text-center flex flex-col p-5 flex-wrap text-wrap md:text-md lg:text-lg sm: text-sm xs:text-xs">
-        {/* <a className="font-bold text-3xl text-[#13A6B8] p-2 md:text-md lg:text-3xl sm:text-sm xs:text-xs">
+        <a className="font-bold text-3xl text-[#13A6B8] p-2 md:text-md lg:text-3xl sm:text-sm xs:text-xs">
           Our Team
-        </a> */}
+        </a>
         {/* <a className="font-semibold  text-black p-2 md:text-md lg:text-2xl sm: text-sm xs:text-xs">
           Here&apos;s what others have to say about us.
         </a> */}
@@ -61,7 +61,7 @@ const About = (props: Props) => {
         <div className=" flex flex-wrap justify-center gap-5 p-10">
           <Aboutcard
             img="/images/About/unknown.jpg"
-            name="Vivek"
+            name="Vivekanand Chandrasekaran"
             desc="Experienced and known food safety expert in the
           field of catering and manufacturing with over 11
           years of industrial experience. post graduate in
@@ -73,11 +73,11 @@ const About = (props: Props) => {
           rating audits completed and lead auditor for iso
           22000: 2018
           "
-            role={"EXECUTIVE DIRECTOR \nvivek@unavar.com"}
+            role={"EXECUTIVE DIRECTOR \nvivekanand@unavar.com"}
           />
           <Aboutcard
             img="/images/About/abt2.png"
-            name="Kashthuri Selvam"
+            name="Kasthuri Selvam"
             desc="Food Process Engineering graduate from TNAU with 5 years of hands- on experience in oil processing, cereals processing, spices processing units. Known expert in label guidance and FSSAI licensing. Hygiene rating certified auditor with more than 300 audits completed for different sectors like catering, bakery and meat retail. Was part of getting the first BHOG for the state of tamil nadu. Certified ISO 22000 lead auditor"
             role={"HEAD - Operations\nkasthuri@unavar.com"}
           />

@@ -12,8 +12,8 @@ const Qci = () => {
           Unavar, is a distinguished certification body dedicated to aiding
           Indian Food Business Operators (FBOs) in obtaining certifications
           aligned with the Food Safety Standards Authority of India (FSSAI),
-          International Organization for Standardization (ISO), and various
-          global standards.
+          International Organization for Standardization (ISO), Quality Council
+          of India (QCI) and various global standards.
         </p>
         <div className="sub flex items-center gap-4">
           <Image
@@ -23,7 +23,7 @@ const Qci = () => {
             height={100}
           />
           <h3 className="text-3xl font-[500]">
-            QCI Accredited <br /> Oraganisation
+            QCI Accredited <br /> Oraganization
           </h3>
         </div>
       </div>
