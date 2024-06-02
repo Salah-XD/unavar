@@ -16,7 +16,6 @@ import {
 } from "@/components/ui/navigation-menu";
 
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
-import HygineRating from '@/components/HygineRating';
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
