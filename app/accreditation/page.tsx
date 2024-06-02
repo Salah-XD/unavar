@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Addbanner from "@/components/Addbanner";
 import FadeUpOnScroll from "@/components/subcomponents/FadeUpOnScroll";
 
 type Props = {};
@@ -23,18 +22,17 @@ const Page = (props: Props) => {
         <div className="flex flex-col items-center">
           <div className="my-10">
             <img
-              src="/images/certificates/hygiene-cer.png"
+              src="/images/certificates/Accrediation Letter.webp"
               alt="Accreditation Certificate"
-              className="max-w-md"
+              className="max-w-full md:max-w-2xl mx-auto p-4 border border-gray-300"
             />
           </div>
         </div>
       </FadeUpOnScroll>
-      <Addbanner />
+
       <Footer />
     </>
   );
 };
 
 export default Page;
- 
