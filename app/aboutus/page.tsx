@@ -36,8 +36,8 @@ const About = (props: Props) => {
               2022. The Organization has More than 12 FSSAI/QCI Certified
               full-time Hygiene rating Auditors and More than 6 ISO 22000:2018
               Certified full-time Lead Auditors. Unavar Food Inspection and
-              Certification Private Limited&LSQUO;s vision is to make
-              FBO&LSQUO;s undergo different certifications in any part of the
+              Certification Private Limited vision is to make
+              FBO  undergo different certifications in any part of the
               country in ease manner to ensure the meet the requirements of
               National and Global Food Safety standards and provide safe and
               wholesome food to the consumers. Unavar Food Inspection and

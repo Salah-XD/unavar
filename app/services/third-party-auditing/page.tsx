@@ -11,7 +11,9 @@ const page = (props: Props) => {
       <Navbar />
       <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/web.png)]">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <a className="text-4xl font-bold text-white">Third Party Auditing</a>
+          <a className="text-4xl font-bold text-white">
+            FSSAI Third Party Audit
+          </a>
           <p className="text-white text-l md:text-xl m-0 md:m-3 my-5 w-screen px-3"></p>
           <a className="text-white text-lg font-semibold"></a>
         </div>
@@ -20,53 +22,185 @@ const page = (props: Props) => {
       <div className="flex flex-col justify-center align-middle p-2 md:p-20">
         <div className="flex flex-col p-10">
           <p className="text-black font-bold text-3xl">
-            Who all are eligible for TPA
+            FSSAI Third Party Audit is Mandatory for which industries ?
           </p>
           <p className="text-black font-sm text-wrap text-md p-3 text-xl">
-            The Food Business Operators (FBOs) who hold a central license are
-            eligible to undergo Third Party Audit (TPA). In the context of food
-            safety regulations, TPA refers to an audit conducted by an external,
-            independent organization or body that is recognized by relevant
-            authorities. This audit assesses the compliance of the food business
-            with applicable standards and regulations, ensuring that food safety
-            and quality requirements are met.
+            The Food Business Operators (FBOs) who hold a central license Should
+            Mandatorily undergo Third Party Audit (TPA) Once in Year, as they
+            have to upload this Audit report while Filing Annual Reports and
+            During Renewal of License . Also this FSSAI Third Party Audit has
+            been Mandatory by FSSAI from August 2019 for all Central Licensed
+            Food Business operators falling under High Risk categories of Food.
+            This audit assesses the compliance of the food business as per the
+            FSSAI Schedule IV Requirements , ensuring that food safety and
+            quality requirements are met.
           </p>
         </div>
         <div className="flex flex-col p-10">
           <p className="text-black font-bold text-3xl">
-            The following are eligible for Third-Party Audits (TPA):
+            Which FBO fall under High Risk Food Categories ?
           </p>
-          <ul className="list-disc my-8 ml-4 text-xl">
-            <li>General Manufacturers</li>
-            <li>Central catering services</li>
-            <li>Holders of central and state licenses for prepared foods</li>
-            <li>Manufacturers of high-risk products:</li>
-            <div className="ml-5">
-              <li className="indent">Milk and dairy products</li>
-              <li className="indent">Meat and poultry products</li>
-              <li className="indent">Fish and seafood products</li>
-              <li className="indent">Ghee and oil</li>
-            </div>
+          <p className="text-black font-sm text-wrap text-md p-3 text-xl">
+            {" "}
+            The following are the High Risk Food Categories :
+          </p>
+
+          <ul className="list-disc  ml-4 text-xl">
+            <li>Dairy Product and Analogues.</li>
+            <li>Meat and Meat Industry Including Poultry.</li>
+            <li>Fish and Fish Products.</li>
+            <li>Egg and Egg Products.</li>
+            <li>Food Stuffs intended for Nutritional Purposes.</li>
+            <li>Catering / Prepared Foods/ Hotels/ Restaurants.</li>
           </ul>
         </div>
 
         <div className="flex flex-col p-10">
           <p className="text-black font-bold text-3xl">
-            On What Basis Man - Days were Calculated?
+            Is this audit applicable for FBO falling under state license
+            category ?
+          </p>
+          <p className="text-black font-sm text-wrap text-md p-3 text-xl">
+            These Audits are applicable for State License Holders as well but as
+            on date it is done on Voluntary Basis and has not yet been made
+            mandatory.
+          </p>
+        </div>
+
+        <div className="flex flex-col p-10">
+          <p className="text-black font-bold text-3xl">
+            Who Can conduct this FSSAI third Party Audit ?
+          </p>
+          <p className="text-black font-sm text-wrap text-md p-3 text-xl">
+            This Audit Can be done only by FSSAI Recognized Third Party Audit
+            Agencies and list of recognized agencies is available in the
+            Following Link -
+            <a
+              href="https://fssai.gov.in/cms/third-party-audit.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500"
+            >
+              https://fssai.gov.in/cms/third-party-audit.php
+            </a>
+            .
+          </p>
+        </div>
+
+        <div className="flex flex-col p-10">
+          <p className="text-black font-bold text-3xl">
+            How is the Audit fees Calculated ?
           </p>
           <p className="text-black font-md text-wrap p-3 text-xl">
-            The provided breakdown suggests different man-day allocations based
-            on the number of food handlers:
+            Audit Fees is calculated on the basis of Man Days applicable for
+            audit and Audit Man Day is calculated as below:
           </p>
-          <p className="text-black font-md text-wrap p-3 text-2xl">
-            0 - 50 food handlers: 0.5 man-day
-          </p>
-          <p className="text-black font-md text-wrap p-3 text-2xl">
-            50 - 100 food handlers: 1 man-day
-          </p>
-          <p className="text-black font-md text-wrap p-3 text-2xl">
-            More than 100 food handlers: 1.5 man-days
-          </p>
+
+          <div className="container mx-auto mt-8 text-left">
+            <h1 className="text-xl font-bold mb-4">Manufacturing</h1>
+            <table className="">
+              <thead>
+                <tr>
+                  <th className="border px-4 py-2 ">Food Handlers</th>
+                  <th className="border px-4 py-2">
+                    No. of Production Lines/Product Group in FBO/No. of HACCP
+                    Studies
+                  </th>
+                  <th className="border px-4 py-2">On Site Man-days</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2 text-center">0-50</td>
+                  <td className="border px-4 py-2 text-center">1</td>
+                  <td className="border px-4 py-2 text-center">Parameter 4</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">51-100</td>
+                  <td className="border px-4 py-2 text-center">1-2</td>
+                  <td className="border px-4 py-2 text-center">0.5</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">101-300</td>
+                  <td className="border px-4 py-2 text-center">4</td>
+                  <td className="border px-4 py-2 text-center">1</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">301-600</td>
+                  <td className="border px-4 py-2 text-center">6</td>
+                  <td className="border px-4 py-2 text-center">1.5</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">601-1000</td>
+                  <td className="border px-4 py-2 text-center">8</td>
+                  <td className="border px-4 py-2 text-center">2.5</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center"> &gt;1000</td>
+                  <td className="border px-4 py-2 text-center">10+</td>
+                  <td className="border px-4 py-2 text-center">3</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="container mx-auto mt-8 text-left">
+            <h1 className="text-xl font-bold mb-4">Catering/QSR/Restaurant</h1>
+            <table className="">
+              <thead>
+                <tr>
+                  <th className="border px-4 py-2">Food Handlers</th>
+
+                  <th className="border px-4 py-2">On Site Man-days</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2 text-center">0-25</td>
+                  <td className="border px-4 py-2 text-center">0.5</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">26-50</td>
+                  <td className="border px-4 py-2 text-center">1</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">51-100</td>
+                  <td className="border px-4 py-2 text-center">1.5</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">101-300</td>
+                  <td className="border px-4 py-2 text-center">2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="container mx-auto mt-8 text-left">
+            <h1 className="text-xl font-bold mb-4">
+              Food Retail/Warehouse/Storage
+            </h1>
+            <table className="">
+              <thead>
+                <tr>
+                  <th className="border px-4 py-2">Area(Sq.ft)</th>
+
+                  <th className="border px-4 py-2">On Site Man-days</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2 text-center">&lt;15,000</td>
+                  <td className="border px-4 py-2 text-center">0</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">15,001-5000</td>
+                  <td className="border px-4 py-2 text-center">1</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2 text-center">&gt;50,00</td>
+                  <td className="border px-4 py-2 text-center">1.5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
         <div className="flex flex-col p-10">
           <p className="text-black font-bold text-3xl">
