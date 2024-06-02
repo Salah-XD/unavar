@@ -1,14 +1,25 @@
 import React from "react";
 import MyGallery from "@/components/MyGallery";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Addbanner from "@/components/Addbanner";
 
 type Props = {};
 
-const page = (props: Props) => {
+const Page = (props: Props) => {
   return (
-    <div>
-      <MyGallery />
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <div className="mb-20">
+        <MyGallery />
+      </div>
+
+      <div className="mt-20">
+        <Addbanner/>
+        <Footer />
+      </div>
     </div>
   );
 };
 
-export default page;
+export default Page;

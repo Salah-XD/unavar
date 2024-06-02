@@ -31,20 +31,25 @@ const About = (props: Props) => {
               operators in India get Certified under different schemes of Food
               safety standards authority of India ( FSSAI) , standards of
               International Organization for Standardization ( ISO) and other
-              Global Standards. Unavar Food Inspection and Certification Private
-              Limited&LSQUO;s vision is to make FBO&LSQUO;s undergo different
-              certifications in any part of the country in ease manner to ensure
-              the meet the requirements of National and Global Food Safety
-              standards and provide safe and wholesome food to the consumers.
-              Unavar Food Inspection and Certification Private Limited aims to
-              be connected with the society and Food business operators through
-              young, talented and passionate professional who are trained and
-              made competent to deliver knowledge about food safety to the
-              industry. Unavar Food Inspection and Certification Private Limited
-              provides certification to food business operators which ensures
-              the consumers the following Safe Food is prepared and served Meets
-              the requirements of National food safety standards or Global
-              Standards Rating of the FBO according to the practices they follow
+              Global Standards. Unavar Food Inspection and Certification is an
+              FSSAI and QCI Accredited Hygiene Rating Agency since December
+              2022. The Organization has More than 12 FSSAI/QCI Certified
+              full-time Hygiene rating Auditors and More than 6 ISO 22000:2018
+              Certified full-time Lead Auditors. Unavar Food Inspection and
+              Certification Private Limited&LSQUO;s vision is to make
+              FBO&LSQUO;s undergo different certifications in any part of the
+              country in ease manner to ensure the meet the requirements of
+              National and Global Food Safety standards and provide safe and
+              wholesome food to the consumers. Unavar Food Inspection and
+              Certification Private Limited aims to be connected with the
+              society and Food business operators through young, talented and
+              passionate professional who are trained and made competent to
+              deliver knowledge about food safety to the industry. Unavar Food
+              Inspection and Certification Private Limited provides
+              certification to food business operators which ensures the
+              consumers the following Safe Food is prepared and served Meets the
+              requirements of National food safety standards or Global Standards
+              Rating of the FBO according to the practices they follow.
             </p>
           </div>
         </div>
