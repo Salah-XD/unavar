@@ -195,7 +195,7 @@ const page = (props: Props) => {
                   <td className="border px-4 py-2 text-center">1</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2 text-center">&gt;50,00</td>
+                  <td className="border px-4 py-2 text-center">&gt;50,000</td>
                   <td className="border px-4 py-2 text-center">1.5</td>
                 </tr>
               </tbody>

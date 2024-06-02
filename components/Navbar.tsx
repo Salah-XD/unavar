@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/navigation-menu";
 
 import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
+import HygineRating from '@/components/HygineRating';
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -157,14 +158,28 @@ const Navbar = () => {
             <p>Gallery</p>
           </Link>
         </li>
-        <li className="mx-4 mb-6 md:my-0">
-          <Link
-            href="/complaints"
-            className=" flex items-center gap-1 text-l text-black"
-          >
-            <p>Complaints</p>
-          </Link>
-        </li>
+        <NavigationMenu className="-mt-3 sm:mt-0 p-0 mx-4">
+          <NavigationMenuItem className="p-0 mt-0">
+            <NavigationMenuTrigger className="text-[16px] p-0 mt-0 font-normal">
+          Complain
+            </NavigationMenuTrigger>
+            <NavigationMenuContent className="">
+              <ul className="flex flex-col  gap-3 p-4  text-[16px] ">
+                <Link href="/hygine-rating">
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Hygine Rating
+                  </NavigationMenuLink>
+                </Link>
+                <Link href="/fssai-tpa">
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                   FSSAI Third Party Audit
+                  </NavigationMenuLink>
+                </Link>
+               
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+        </NavigationMenu>
         <li className="mx-4 mb-6 md:my-0">
           <Link
             href="/contact"
