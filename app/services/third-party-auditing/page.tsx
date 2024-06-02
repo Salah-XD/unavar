@@ -96,12 +96,12 @@ const page = (props: Props) => {
             audit and Audit Man Day is calculated as below:
           </p>
 
-          <div className="container mx-auto mt-8 text-left">
+          <div className="container mx-auto mt-8 text-left overflow-x-auto">
             <h1 className="text-xl font-bold mb-4">Manufacturing</h1>
-            <table className="">
+            <table className="min-w-full">
               <thead>
                 <tr>
-                  <th className="border px-4 py-2 ">Food Handlers</th>
+                  <th className="border px-4 py-2">Food Handlers</th>
                   <th className="border px-4 py-2">
                     No. of Production Lines/Product Group in FBO/No. of HACCP
                     Studies
@@ -113,7 +113,7 @@ const page = (props: Props) => {
                 <tr>
                   <td className="border px-4 py-2 text-center">0-50</td>
                   <td className="border px-4 py-2 text-center">1</td>
-                  <td className="border px-4 py-2 text-center">Parameter 4</td>
+                  <td className="border px-4 py-2 text-center">4</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2 text-center">51-100</td>
@@ -136,13 +136,14 @@ const page = (props: Props) => {
                   <td className="border px-4 py-2 text-center">2.5</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2 text-center"> &gt;1000</td>
+                  <td className="border px-4 py-2 text-center">&gt;1000</td>
                   <td className="border px-4 py-2 text-center">10+</td>
                   <td className="border px-4 py-2 text-center">3</td>
                 </tr>
               </tbody>
             </table>
           </div>
+
           <div className="container mx-auto mt-8 text-left">
             <h1 className="text-xl font-bold mb-4">Catering/QSR/Restaurant</h1>
             <table className="">
