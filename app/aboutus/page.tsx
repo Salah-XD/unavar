@@ -36,28 +36,29 @@ const About = (props: Props) => {
               2022. The Organization has More than 12 FSSAI/QCI Certified
               full-time Hygiene rating Auditors and More than 6 ISO 22000:2018
               Certified full-time Lead Auditors. Unavar Food Inspection and
-              Certification Private Limited vision is to make
-              FBO  undergo different certifications in any part of the
-              country in ease manner to ensure the meet the requirements of
-              National and Global Food Safety standards and provide safe and
-              wholesome food to the consumers. Unavar Food Inspection and
-              Certification Private Limited aims to be connected with the
-              society and Food business operators through young, talented and
-              passionate professional who are trained and made competent to
-              deliver knowledge about food safety to the industry. Unavar Food
-              Inspection and Certification Private Limited provides
-              certification to food business operators which ensures the
-              consumers the following Safe Food is prepared and served Meets the
-              requirements of National food safety standards or Global Standards
-              Rating of the FBO according to the practices they follow.
+              Certification Private Limited vision is to make FBO undergo
+              different certifications in any part of the country in ease manner
+              to ensure the meet the requirements of National and Global Food
+              Safety standards and provide safe and wholesome food to the
+              consumers. Unavar Food Inspection and Certification Private
+              Limited aims to be connected with the society and Food business
+              operators through young, talented and passionate professional who
+              are trained and made competent to deliver knowledge about food
+              safety to the industry. Unavar Food Inspection and Certification
+              Private Limited provides certification to food business operators
+              which ensures the consumers the following Safe Food is prepared
+              and served Meets the requirements of National food safety
+              standards or Global Standards Rating of the FBO according to the
+              practices they follow.
             </p>
           </div>
         </div>
       </FadeUpOnScroll>
       <div className=" justiy-center text-center flex flex-col p-5 flex-wrap text-wrap md:text-md lg:text-lg sm: text-sm xs:text-xs">
-        <a className="font-bold text-3xl text-[#13A6B8] p-2 md:text-md lg:text-3xl sm:text-sm xs:text-xs">
+        <p className="text-center font-bold text-xl md:text-4xl lg:text-4xl text-[#13A6B8] p-2 sm:text-3xl xs:text-3xl">
           Our Team
-        </a>
+        </p>
+
         {/* <a className="font-semibold  text-black p-2 md:text-md lg:text-2xl sm: text-sm xs:text-xs">
           Here&apos;s what others have to say about us.
         </a> */}

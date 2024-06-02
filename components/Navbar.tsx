@@ -160,7 +160,7 @@ const Navbar = () => {
         <NavigationMenu className="-mt-3 sm:mt-0 p-0 mx-4">
           <NavigationMenuItem className="p-0 mt-0">
             <NavigationMenuTrigger className="text-[16px] p-0 mt-0 font-normal">
-          Complain
+          Complaints
             </NavigationMenuTrigger>
             <NavigationMenuContent className="">
               <ul className="flex flex-col  gap-3 p-4  text-[16px] ">
