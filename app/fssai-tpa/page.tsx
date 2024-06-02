@@ -118,36 +118,42 @@ const page: React.FC = () => {
           <p className="text-black font-bold my-10 text-3xl">
             FSSAI THIRD PARTY AUDIT SCHEME
           </p>
-          <table className="min-w-full bg-white border border-gray-200">
-            <thead>
-              <tr>
-                <th className="py-2 px-4 border-b border-gray-200">Action</th>
-                <th className="py-2 px-4 border-b border-gray-200">
-                  Responsibility
-                </th>
-                <th className="py-2 px-4 border-b border-gray-200">Timeline</th>
-                <th className="py-2 px-4 border-b border-gray-200">Remarks</th>
-              </tr>
-            </thead>
-            <tbody>
-              {data.map((row, index) => (
-                <tr key={index} className="hover:bg-gray-100">
-                  <td className="py-2 px-4 border-b border-gray-200">
-                    {row.action}
-                  </td>
-                  <td className="py-2 px-4 border-b border-gray-200">
-                    {row.responsibility}
-                  </td>
-                  <td className="py-2 px-4 border-b border-gray-200">
-                    {row.timeline}
-                  </td>
-                  <td className="py-2 px-4 border-b border-gray-200">
-                    {row.remarks}
-                  </td>
+          <div className="overflow-x-auto">
+            <table className="min-w-full bg-white border border-gray-200">
+              <thead>
+                <tr>
+                  <th className="py-2 px-4 border-b border-gray-200">Action</th>
+                  <th className="py-2 px-4 border-b border-gray-200">
+                    Responsibility
+                  </th>
+                  <th className="py-2 px-4 border-b border-gray-200">
+                    Timeline
+                  </th>
+                  <th className="py-2 px-4 border-b border-gray-200">
+                    Remarks
+                  </th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {data.map((row, index) => (
+                  <tr key={index} className="hover:bg-gray-100">
+                    <td className="py-2 px-4 border-b border-gray-200 sm:w-1/4">
+                      {row.action}
+                    </td>
+                    <td className="py-2 px-4 border-b border-gray-200 sm:w-1/4">
+                      {row.responsibility}
+                    </td>
+                    <td className="py-2 px-4 border-b border-gray-200 sm:w-1/4">
+                      {row.timeline}
+                    </td>
+                    <td className="py-2 px-4 border-b border-gray-200 sm:w-1/4">
+                      {row.remarks}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
           <ul className="list-disc pl-5  mt-10 text-xl">
             <li className="mt-10">

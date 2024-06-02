@@ -9,7 +9,7 @@ const page = (props: Props) => {
   return (
     <div>
       <Navbar />
-      <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/web.png)]">
+      <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/web.png)] sm:p-10">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <a className="text-4xl font-bold text-white">
             FSSAI Third Party Audit
