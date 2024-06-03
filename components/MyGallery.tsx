@@ -33,10 +33,10 @@ const MyGallery = () => {
   // Function to fetch image URLs from the public folder
   const fetchImages = () => {
     const images = [];
-    for (let i = 1; i <= 18; i++) {
+    for (let i = 1; i <= 15; i++) {
       images.push({
-        original: `/images/gallery/image (${i}).jpeg`,
-        thumbnail: `/images/gallery/image (${i}).jpeg`,
+        original: `/images/gallery/img (${i}).jpeg`,
+        thumbnail: `/images/gallery/img (${i}).jpeg`,
       });
     }
     return images;
@@ -45,11 +45,11 @@ const MyGallery = () => {
   const images = fetchImages();
 
   return (
-    <div className=" my-5 h-screen flex flex-col">
-      <h2 className=" text-4xl text-center font-semibold leading-[1.5] text-[#000000]">
-        Gallery
-      </h2>
-      <div className="flex-grow">
+    <div className="my-5 flex flex-col items-center">
+      <h2 className="text-4xl font-semibold text-[#000000] mb-5">Gallery</h2>
+      <div className="w-3/4">
+        {" "}
+        {/* Adjust the width as per your requirement */}
         <ImageGallery items={images} />
       </div>
     </div>

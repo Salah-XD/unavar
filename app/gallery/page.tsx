@@ -14,11 +14,11 @@ const Page = (props: Props) => {
         <MyGallery />
       </div>
 
-      <div className="mt-20">
+     
         <Addbanner/>
         <Footer />
       </div>
-    </div>
+   
   );
 };
 
