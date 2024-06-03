@@ -16,9 +16,9 @@ const Service = () => {
       </h1>
       <div className="flex flex-wrap justify-center my-7 py-9 gap-7">
         <AuditCard
-          head="Third Party Auditing"
+          head="FSSAI Third Party Auditing"
           image="/images/tpa.png"
-          btn="view more"
+          btn="View More"
         />
       </div>
       <h1 className="text-center text-5xl font-semibold font-roboto-slab">

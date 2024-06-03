@@ -15,7 +15,7 @@ const Page = (props: Props) => {
       </div>
 
      
-        <Addbanner/>
+      
         <Footer />
       </div>
    

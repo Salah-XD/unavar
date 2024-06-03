@@ -75,7 +75,7 @@ const Navbar = () => {
             href="/aboutus"
             className=" flex items-center gap-1 text-l text-black"
           >
-            <p>About</p>
+            <p>About Us</p>
           </Link>
         </li>
         <li className="mx-4 mb-6 md:my-0">
@@ -184,7 +184,7 @@ const Navbar = () => {
             href="/contact"
             className=" flex items-center gap-1 text-l text-black"
           >
-            <p>Contact</p>
+            <p>Contact Us</p>
           </Link>
         </li>
       </ul>
