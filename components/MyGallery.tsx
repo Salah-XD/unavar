@@ -30,7 +30,6 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const MyGallery = () => {
-  // Function to fetch image URLs from the public folder
   const fetchImages = () => {
     const images = [];
     for (let i = 1; i <= 15; i++) {
@@ -48,8 +47,6 @@ const MyGallery = () => {
     <div className="my-5 flex flex-col items-center">
       <h2 className="text-4xl font-semibold text-[#000000] mb-5">Gallery</h2>
       <div className="w-3/4">
-        {" "}
-        {/* Adjust the width as per your requirement */}
         <ImageGallery items={images} />
       </div>
     </div>

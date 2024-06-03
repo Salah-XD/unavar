@@ -20,48 +20,48 @@ const page: React.FC = () => {
     },
     {
       action: "Verify the validity of the complaint",
-      responsibility: "Technical Manager / SME",
+      responsibility: "Technical Manager",
       timeline: "Within 2 working days",
       remarks:
         "Review the nature and content of the complaint and determine whether this is a valid complaint or not. If yes, proceed for step #5. If not, proceed for step #4",
     },
     {
       action: "Complaint invalid",
-      responsibility: "Technical Manager / SME",
+      responsibility: "Technical Manager",
       timeline: "Within 2 working days",
       remarks:
         "If concluded as the complaint is not valid then inform complainant within 2 days. Update the CAR accordingly. Process ends.",
     },
     {
       action: "Log complaint",
-      responsibility: "Technical Manager / SME",
+      responsibility: "Technical Manager ",
       timeline: "Within 2 working days",
       remarks: "Open the CAR (Corrective Action Request form) AUDIT.REC.CAR.01",
     },
     {
       action: "Acknowledge receipt client’s notification",
-      responsibility: "Technical Manager / SME/ Operations Head",
+      responsibility: "Technical Manager / Operations Head",
       timeline: "Within 2 days",
       remarks:
         "If concluded as valid acknowledge receipt of the complaint to the complainant and start investigation.",
     },
     {
       action: "Perform investigation",
-      responsibility: "Technical Manager / SME/ Operations Head",
+      responsibility: "Technical Manager / Operations Head",
       timeline: "Within 7 working days",
       remarks:
         "Investigate or assign the task for investigation of complaint to a designated investigator who has not been previously involved with the subject of the complaint. Investigation may be off site or on site. Complaints received from Accreditation Bodies Sector Authority Organizations (Such as FSSAI) or clients’ may require an on-site investigation review visit (if required on site visit needs to be done). Report must be submitted in both the scenarios.",
     },
     {
       action: "Initiate a Corrective Action",
-      responsibility: "Technical Manager / SME/ Operations Head",
+      responsibility: "Technical Manager / Operations Head",
       timeline: "Within 7 working days",
       remarks:
         "Resolve complaint through an investigation and validation process document root cause corrections and/or corrective actions to be taken in response to the complaint.",
     },
     {
       action: "Recommendation",
-      responsibility: "Technical Manager / SME/ Operations Head",
+      responsibility: "Technical Manager / Operations Head",
       timeline: "Immediate after CA",
       remarks:
         "Document the recommendation in CAR & follow the CAPA Procedure. AUDIT.REC.CAR.01",
@@ -75,7 +75,7 @@ const page: React.FC = () => {
     },
     {
       action: "Assignment of actions and Implement actions",
-      responsibility: "Technical Manager / SME/ Operations Head",
+      responsibility: "Technical Manager / Operations Head",
       timeline: "Within 1 day after approval",
       remarks:
         "Complete all actions as assigned attach evidence of implementation. Inform complainant of the completed actions. This can be done by e-mail or formal letter.",
@@ -83,7 +83,7 @@ const page: React.FC = () => {
     {
 
      action: "Close complaint/Appeal in the log",
-    responsibility: "Technical Manager / SME/ Operations Head",
+    responsibility: "Technical Manager / Operations Head",
     timeline: "Immediate after all steps completion",
     remarks: (
       <ul className="list-disc pl-5">
@@ -162,13 +162,7 @@ const page: React.FC = () => {
               receipt of a complaint and/or appeal, Unavar Inspection &
               Certification Pvt. Ltd. shall confirm whether the complaint
               relates to certification activities that it is responsible for
-              and, if so, shall deal with it. If the complaint relates to a
-              certified client, then examination of the complaint shall consider
-              the effectiveness of the certified management system. If a valid
-              complaint regarding a certified client is communicated to Unavar
-              Inspection & Certification Pvt. Ltd. by certified client and/or by
-              scheme owner, the certified client is notified at an appropriate
-              time.
+              and, if so, shall deal with it.
             </li>
             <li className="mt-10">
               A review of complaints is provided during management reviews. In
@@ -177,10 +171,10 @@ const page: React.FC = () => {
               complaints/appeals must possess the necessary skills. They are
               therefore designated on the basis of the discussed issue. If it
               turns out that someone is too involved in the process, another
-              person of the team or the Certification Committee is requested to
-              take the necessary decisions. These cases are rare but in which
-              cases fall into this situation: Appeal Process will be followed as
-              per this procedure only.
+              person of the team or the Top Management is requested to take the
+              necessary decisions. These cases are rare but in which cases fall
+              into this situation: Appeal Process will be followed as per this
+              procedure only.
             </li>
             <li className="mt-10">
               Submission, investigation, and decision on complaints and disputes
