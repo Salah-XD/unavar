@@ -164,9 +164,9 @@ const Navbar = () => {
             </NavigationMenuTrigger>
             <NavigationMenuContent className="">
               <ul className="flex flex-col  gap-3 p-4  text-[16px] ">
-                <Link href="/hygine-rating">
+                <Link href="/hygiene-rating">
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Hygine Rating
+                Hygiene Rating
                   </NavigationMenuLink>
                 </Link>
                 <Link href="/fssai-tpa">

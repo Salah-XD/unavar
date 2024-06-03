@@ -1,23 +1,26 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
-import Banner from "@/components/subcomponents/banner";
+import FadeUpOnScroll from "@/components/subcomponents/FadeUpOnScroll";
 
 type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div>
+    <>
       <Navbar />
-      <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/web.png)] sm:p-10">
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <a className="text-4xl font-bold text-white">
-            FSSAI Third Party Audit
-          </a>
-          <p className="text-white text-l md:text-xl m-0 md:m-3 my-5 w-screen px-3"></p>
-          <a className="text-white text-lg font-semibold"></a>
+      <FadeUpOnScroll>
+        <div className="relative overflow-hidden bg-cover bg-no-repeat p-40 text-center bg-img bg-[url(/images/web.png)]">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <a className="text-4xl font-bold text-white">
+              {" "}
+              FSSAI Third Party Audit
+            </a>
+            <p className="text-white text-l md:text-xl m-0 md:m-3 my-5 w-screen px-3"></p>
+            <a className="text-white text-lg font-semibold"></a>
+          </div>
         </div>
-      </div>
+      </FadeUpOnScroll>
       {/* ------- */}
       <div className="flex flex-col justify-center align-middle p-2 md:p-20">
         <div className="flex flex-col p-10">
@@ -101,44 +104,68 @@ const page = (props: Props) => {
             <table className="min-w-full">
               <thead>
                 <tr>
-                  <th className="border px-4 py-2">Food Handlers</th>
-                  <th className="border px-4 py-2">
+                  <th className="border text-center px-4 py-2 w-[100px]">Food Handlers</th>
+                  <th className="border text-center px-4 py-2 w-[150px]">
                     No. of Production Lines/Product Group in FBO/No. of HACCP
                     Studies
                   </th>
-                  <th className="border px-4 py-2">On Site Man-days</th>
+                  <th className="border text-center px-4 py-2 w-[100px]">
+                    On Site Man-days
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border px-4 py-2 text-center">0-50</td>
-                  <td className="border px-4 py-2 text-center">1</td>
-                  <td className="border px-4 py-2 text-center">4</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    0-50
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[150px]">1</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">4</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2 text-center">51-100</td>
-                  <td className="border px-4 py-2 text-center">1-2</td>
-                  <td className="border px-4 py-2 text-center">0.5</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    51-100
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[150px]">
+                    1-2
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    0.5
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2 text-center">101-300</td>
-                  <td className="border px-4 py-2 text-center">4</td>
-                  <td className="border px-4 py-2 text-center">1</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    101-300
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[150px]">4</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">1</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2 text-center">301-600</td>
-                  <td className="border px-4 py-2 text-center">6</td>
-                  <td className="border px-4 py-2 text-center">1.5</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    301-600
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[150px]">6</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    1.5
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2 text-center">601-1000</td>
-                  <td className="border px-4 py-2 text-center">8</td>
-                  <td className="border px-4 py-2 text-center">2.5</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    601-1000
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[150px]">8</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    2.5
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2 text-center">&gt;1000</td>
-                  <td className="border px-4 py-2 text-center">10+</td>
-                  <td className="border px-4 py-2 text-center">3</td>
+                  <td className="border px-4 py-2 text-center w-[100px]">
+                    &gt;1000
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[150px]">
+                    10+
+                  </td>
+                  <td className="border px-4 py-2 text-center w-[100px]">3</td>
                 </tr>
               </tbody>
             </table>
@@ -234,12 +261,9 @@ const page = (props: Props) => {
           </div>
         </div>
       </div>
-      <footer>
-        <div>
-          <Footer />
-        </div>
-      </footer>
-    </div>
+
+      <Footer />
+    </>
   );
 };
 

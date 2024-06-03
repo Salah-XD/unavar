@@ -12,7 +12,7 @@ type Props = {};
 // Sections array with name and count of images
 const sections = [
   { id: 1, name: "Hygiene Rating", count: 18 },
-  { id: 2, name: "Eat Right Campus", count: 12 },
+  { id: 2, name: "Eat Right Campus", count: 11 },
   { id: 3, name: "Eat Right Place of Worship", count: 9 },
   { id: 4, name: "Eat Right Station", count: 6 },
   { id: 5, name: "Clean Street Food Hub and Vegetable Market", count: 6 },
