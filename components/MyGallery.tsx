@@ -47,6 +47,10 @@ const MyGallery = () => {
     <div className="my-5 flex flex-col items-center">
       <h2 className="text-4xl font-semibold text-[#000000] mb-5">Gallery</h2>
       <div className="w-3/4">
+        <div className="text-center">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis,
+          dolore!
+        </div>
         <ImageGallery items={images} />
       </div>
     </div>
