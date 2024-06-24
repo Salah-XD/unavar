@@ -30,7 +30,7 @@ const page = (props: Props) => {
           <p className="text-black font-bold text-lg">OBJECTIVE</p>
           <a className="text-black font-bold text-md p-3">
             The aims and objectives of Unavar Food Inspection and Certification
-            Provate Limites as stated:
+            Private Limited as stated:
           </a>
           <ol className="px-12 py-2 list-decimal">
             <li className="text-black">
@@ -140,6 +140,11 @@ const page = (props: Props) => {
               Unavar Food Inspection and Certification Private employees will
               not conduct any FoSTaC - Catering sectors training to avoid any
               situation of Impartiality risk under self review category.
+            </li>
+            <li className="text-black">
+              Unavar Food Inspection and Certification Private Limited personnel
+              will not be influenced by financial, commercial, or other
+              pressures when conducting certifications.
             </li>
           </ol>
         </div>

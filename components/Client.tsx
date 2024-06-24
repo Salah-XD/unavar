@@ -1,23 +1,39 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import ClientCard from "./subcomponents/ClientCard";
 import "react-multi-carousel/lib/styles.css";
 
 type Props = {};
 
-const img1 = "/images/Sapphire.png";
-const img2 = "/images/Anjappar.jpg";
-const img3 = "/images/HardCastle.png";
-const img4 = "/images/Jubilant.png";
-const img5 = "/images/Kitchen.jpg";
-const img6 = "/images/Kitchen.jpg";
-const img7 = "/images/Kitchen.jpg";
+const imgPaths = [
+  "/images/our-clients/Sapphire.png",
+  "/images/our-clients/Anjappar.jpg",
+  "/images/our-clients/HardCastle.png",
+  "/images/our-clients/Jubilant.png",
+  "/images/our-clients/Kitchen.jpg",
+  "/images/our-clients/A2B-Logo-PDF-1.png",
+  "/images/our-clients/ACCORD HOTELS.jpeg",
+  "/images/our-clients/aroma Bakery Coimbatore.jpeg",
+  "/images/our-clients/Ashok-Leyland-Logo.png",
+  "/images/our-clients/CHRIST UNIVERSITY.png",
+  "/images/our-clients/FORTUNE PANDIYAN HOTELS.png",
+  "/images/our-clients/IDHAYAM OILS.jpeg",
+  "/images/our-clients/grt.png",
+  "/images/our-clients/KR BAKES.png",
+  "/images/our-clients/Kumar Mess.png",
+  "/images/our-clients/madurai meenakshi mission hospital.png",
+  "/images/our-clients/Murugan Idly.png",
+  "/images/our-clients/PERAMBUR SRINIVASA.png",
+  "/images/our-clients/RADDISSON BLU .jpeg",
+  "/images/our-clients/RKG LOGO.jpeg",
+  "/images/our-clients/SAHARA HOSPITALITY MUMBAI.png",
+  "/images/our-clients/the park chennai.jpeg",
+  "/images/our-clients/Tuyaa-Chennai-logo.png",
+];
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 5,
   },
@@ -76,13 +92,9 @@ const Testclient = (props: Props) => {
           slidesToSlide={2}
           swipeable
         >
-          <ClientCard img={img1} />
-          <ClientCard img={img3} />
-          <ClientCard img={img4} />
-          <ClientCard img={img5} />
-          <ClientCard img={img2} />
-          <ClientCard img={img6} />
-          <ClientCard img={img7} />
+          {imgPaths.map((img, index) => (
+            <ClientCard key={index} img={img} />
+          ))}
         </Carousel>
       </center>
     </div>

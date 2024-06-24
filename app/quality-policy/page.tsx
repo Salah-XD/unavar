@@ -40,22 +40,24 @@ const page = (props: Props) => {
             manner.
             <br></br>
             <br></br>
-            UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED ensures
+            UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED, ensures
             that impartiality policy and confidentiality policy is communicated
             from Top management till all staffs, stakeholders and clients. Also
             the auditors are well informed that there is no special renumeration
             for the number of audits conducted which may influence the results
-            of Audits.
+            of inspection activities.
           </p>
         </div>
         <div className="p-10">
           <a className="text-black text-xl font-bold">OBJECTIVES:</a>
           <ol className="list-decimal px-8 py-4 font-normal text-md">
-            <li>To reach an annual target of 5000, New Hygiene Rating Audit</li>
             <li>
-              Competency level of the auditor to be achieved by increasing 20%
-              from the current scoring through regular training.
+              To carry out inspection services with ZERO Client complaint.
             </li>
+            <li>
+              To conduct more than 250 FSSAI - Third Party Audits In a year.
+            </li>
+            <li>To conduct more than 1500 Hygiene Rating audits in a year</li>
           </ol>
         </div>
       </div>
